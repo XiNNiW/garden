@@ -1,4 +1,3 @@
-
 ---
 ---
 # Performance Requirements of Real-time DSP

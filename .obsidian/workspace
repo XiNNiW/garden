@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Songwriting/Strophic form.md",
+            "file": "Jevon's Paradox.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Songwriting/Strophic form.md",
+                "file": "Jevon's Paradox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "ae28065834184a89",
   "lastOpenFiles": [
-    "Songwriting/Strophic form.md",
-    "Digital Audio/White Noise.md",
-    "Digital Audio/sample rate reduction.md",
-    "Digital Audio/Performance Requirements of Real-time DSP.md",
-    "Digital Audio/numerically controlled oscillator.md",
-    "Digital Audio/non-causal filter.md",
-    "Digital Audio/minBLEP.md",
-    "Digital Audio/IIR filter.md",
-    "Digital Audio/FM Synthesis.md",
-    "Digital Audio/FIR filter.md"
+    "Jevon's Paradox.md",
+    "Garden vs. Stream dichotomy.md",
+    "Fourier series.md",
+    "DSF.md",
+    "digital garden.md",
+    "Deep Listening.md",
+    "Databending.md",
+    "climate impact of technology.md",
+    "Climate Crisis.md",
+    "Songwriting/Strophic form.md"
   ]
 }

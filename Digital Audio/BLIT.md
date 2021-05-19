@@ -1,4 +1,3 @@
-
 ---
 ---
 # BLIT (Band-Limited Impulse Train)

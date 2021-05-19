@@ -1,4 +1,3 @@
-
 ---
 ---
 When I learn other people's music I sometimes notice patterns in the harmony that I want to remember and learn from. I will try to document them here. 

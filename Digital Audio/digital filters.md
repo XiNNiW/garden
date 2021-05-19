@@ -1,4 +1,3 @@
-
 ---
 ---
 # Digital Filter

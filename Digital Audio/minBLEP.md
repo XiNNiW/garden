@@ -1,4 +1,3 @@
-
 ---
 ---
 # MinBlep (Minimum Band-Limited Step)

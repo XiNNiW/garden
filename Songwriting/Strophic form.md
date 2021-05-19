@@ -1,4 +1,3 @@
-
 ---
 ---
 # Strophic form

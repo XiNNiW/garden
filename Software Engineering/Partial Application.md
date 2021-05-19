@@ -1,4 +1,3 @@
-
 ---
 ---
 # Partial Application

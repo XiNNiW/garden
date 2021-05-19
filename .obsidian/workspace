@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Jevon's Paradox.md",
+            "file": "Songwriting/Lyric Writing Techniques.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jevon's Paradox.md",
+                "file": "Songwriting/Lyric Writing Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "ae28065834184a89",
   "lastOpenFiles": [
+    "Songwriting/Untitled.md",
+    "Songwriting/AABA song form.md",
+    "Climate Crisis.md",
+    "climate impact of technology.md",
     "Jevon's Paradox.md",
     "Garden vs. Stream dichotomy.md",
     "Fourier series.md",
     "DSF.md",
     "digital garden.md",
-    "Deep Listening.md",
-    "Databending.md",
-    "climate impact of technology.md",
-    "Climate Crisis.md",
-    "Songwriting/Strophic form.md"
+    "Deep Listening.md"
   ]
 }

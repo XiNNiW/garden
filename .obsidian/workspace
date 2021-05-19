@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Songwriting/Lyric Writing Techniques.md",
+            "file": "Software Engineering/loop unrolling.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Songwriting/Lyric Writing Techniques.md",
+                "file": "Software Engineering/loop unrolling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "ae28065834184a89",
   "lastOpenFiles": [
+    "Software Engineering/loop unrolling.md",
+    "Software Engineering/Lazy Evaluation.md",
+    "Songwriting/Lyric Writing Techniques.md",
+    "Songwriting/Harmonic Patterns In Songs.md",
     "Songwriting/Untitled.md",
     "Songwriting/AABA song form.md",
     "Climate Crisis.md",
     "climate impact of technology.md",
     "Jevon's Paradox.md",
-    "Garden vs. Stream dichotomy.md",
-    "Fourier series.md",
-    "DSF.md",
-    "digital garden.md",
-    "Deep Listening.md"
+    "Garden vs. Stream dichotomy.md"
   ]
 }

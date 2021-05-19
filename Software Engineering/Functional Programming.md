@@ -1,5 +1,3 @@
----
----
 # Functional Programming
 Functional Programming is a paradigm for software design. It favors implementing functionality by composition of pure function and demands that side effects be strictly separated from [pure](pure function.md) functional code.
 

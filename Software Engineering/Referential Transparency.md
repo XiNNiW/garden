@@ -1,5 +1,3 @@
----
----
 # Referential Transparency
 Often discussed in conjunction with the paradigm of [[Functional Programming]], Referential Transparency is the property of pure functions that always guarantees the same return value for a given set of arguments. When a function is pure, it has no side effects, and relies on only the values of its arguments to determine the return value. This means that you will always receive the same return value for a given set of arguments. 
 

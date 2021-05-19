@@ -1,5 +1,3 @@
----
----
 # Digital Filter
 A digital filter is a process that takes some input signal and produces some (possibly modified) output signal. In that way almost everything that interacts with an audio signal inside the computer is a digital filter. 
 

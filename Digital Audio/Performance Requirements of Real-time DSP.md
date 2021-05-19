@@ -1,5 +1,3 @@
----
----
 # Performance Requirements of Real-time DSP
 In order to convincingly generate/manipulate audio in real time without audible clicks or pops, the audio code must be capable of delivering rendered samples to the output at a speed that is faster than the sample rate. If the algorithm is unable to complete rendering a section of audio before playback, nasty clicks and glitches will occur. 
 

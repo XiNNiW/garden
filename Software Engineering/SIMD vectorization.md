@@ -1,5 +1,3 @@
----
----
 # Single Instruction Multiple Data
 SIMD or "Single Instruction Multiple Data" is an optimization technique that takes advantage of extensions to the instruction set offered by some processors. These extended instructions allow for multiple numbers to be affected by an operation during a single cycle of the processor. 
 

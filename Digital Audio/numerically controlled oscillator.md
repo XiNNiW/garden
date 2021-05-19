@@ -1,11 +1,10 @@
----
----
 # Numerically Controlled Oscillator
 A numerically controlled oscillator is a simple algorithm for computing the changing phase of an oscillator over time. It can be used to make all kinds of waveforms and is often at the heart of more complicated synthesis algorithms. (see: [[FM Synthesis]])
 
 So how does it work? To make an NCO we keep some state for tracking the phase of the oscillator. We then convert the desired frequency into a phase increment. The phase increment is the amount that we add to the phase every sample. 
 
 The formula for the phase increment:
+
 $$ inc = 2\pi\frac{f}{f_{sr}} $$
 (where $f$ is the frequency and $f_{sr}$  is the sample rate)
 

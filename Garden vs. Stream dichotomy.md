@@ -1,5 +1,3 @@
----
----
 # Garden vs. Stream
 The garden and the stream are two metaphors for our experience of the internet. 
 

@@ -1,5 +1,3 @@
----
----
 # Digital Sampling
 Sound (and analogous signals) are represented inside the computer in the form of samples. A sample is a snapshot of the signal's amplitude value at a given point in time. These samples are collected at regular intervals. The speed at which the samples are collected is called the sample rate.
 

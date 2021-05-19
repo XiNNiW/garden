@@ -1,5 +1,4 @@
----
----
+# Primary Chords
 In *20th Century Harmony* by Vincent Persichetti, in the section on modal writing, Persichetti proposes the idea of thinking about modal harmony in terms of Primary chords, secondary chords, and avoid chords.
 
 ### Primary Chords

@@ -1,9 +1,8 @@
----
----
 # Bandlimited Oscillator
 Within digital audio, a band limited oscillator is any oscillator algorithm that refrains from producing harmonics above the 1/2 sample rate limit. It produces no [[aliasing]] artifacts. (see: [[Bandlimiting]])
 
 Consider the Fourier expansion a perfect sawtooth wave:
+
 $$y(t) = \frac {1} {2} - \sum_{n=0}^\infty \frac {1} {n\pi} sin(2\pi nt)$$
 
 It requires an infinite number of harmonics to create. Even for low frequency waves, some of those harmonics will alias. As the fundamental frequency increases the [[aliasing]] distortion will get worse as more and more harmonics fold over.

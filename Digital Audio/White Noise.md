@@ -1,5 +1,3 @@
----
----
 # White noise
 White noise is noise that is perfectly random. Ideal white noise has equal power in all harmonic bands and thus is impossible to physically create as it would take an infinite amount of energy. 
 

@@ -1,5 +1,3 @@
----
----
 # BLIT (Band-Limited Impulse Train)
 
 BLIT is an algorithm for creating band-limited waveforms first outlined in the paper *Alias-Free Digital Synthesis of Classic Analog Waveforms* by Julias Smith and Tim Stilson. (paper available [here](https://ccrma.stanford.edu/~stilti/papers/blit.pdf)) It can be used to generate a wide variety of waves but excels at reproducing the forms that are typically found on analog synthesizers. (eg. Saw, Square, and Triangle) The algorithm focuses on first creating a band-limited pulse wave. An ideal pulse wave contains frequency energy is all bands, and therefor can be filtered down to produce all other waveforms. 

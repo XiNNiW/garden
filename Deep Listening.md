@@ -1,3 +1,5 @@
+---
+---
 # Deep Listening
 
 Deep Listening is a compositional sound practice as well as a meditation technique pioneered by composer Pauline Oliveros. She wrote a book on the topic entitled "Deep Listening: A Composer's Sound Practice". She also taught many workshops on the subject all across the world. These have continued after her death. 

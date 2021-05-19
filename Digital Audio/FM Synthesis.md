@@ -1,3 +1,6 @@
+
+---
+---
 # FM Synthesis
 Frequency Modulation synthesis is a technique pioneered by John Chowning. It is a synthesis technique where complex timbres are created from simple tones by rapidly changing the frequency of the tone. If the pitch is modulated at a rate where humans have pitch perception, audible side-bands are generated. The main tone is called the carrier wave and the tone that determines how fast to change the pitch is called the modulator wave. 
 

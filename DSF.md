@@ -1,3 +1,5 @@
+---
+---
 # DSF (Discrete Summation Formula)
 
 A DSF is an approximation of an ideal waveform (such as SAW or SQUARE) that uses trig identities to approximate the wave up to a given number of harmonics.

@@ -1,3 +1,6 @@
+---
+title: Databending
+---
 # Databending
 Databending is an artistic practice where the artist operates on the raw data of a media file as a means of manipulating it aesthetically.
 

@@ -1,3 +1,6 @@
+---
+title: Bandlimiting
+---
 # Bandlimiting
 Bandlimiting is when a digital audio algorithm is prevented from producing frequencies outside the 1/2 sample rate nyquist limit. This prevents [[aliasing]]. 
 

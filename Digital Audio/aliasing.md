@@ -1,3 +1,6 @@
+
+---
+---
 # Aliasing
 Aliasing is where a digital signal (or some component of a signal) fluctuates at a frequency higher than 1/2 the sampling rate. For example, assuming a sampling rate of 48 kHz, any tone or harmonic higher than 22 kHz will alias. The energy of the aliased tone will then be reflected downward in pitch into potentially audible side-bands. The result is typically the introduction of high-pitched in-harmonic tones to the signal. Sometimes this effect is [desirable](sample rate reduction). Most often it is not desirable. 
 

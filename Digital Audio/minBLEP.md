@@ -1,3 +1,6 @@
+
+---
+---
 # MinBlep (Minimum Band-Limited Step)
 
 MinBlep is an algorithm for generating bandlimited classic analog waveforms with a computer. It allows for flexibility in modulating the shape of the waveform that is typically available on analog equipment. (eg. hard sync) This algorithm was first outlined in the paper *Hard sync without aliasing* by Eli Brandt. (paper available [here](https://www.cs.cmu.edu/~eli/papers/icmc01-hardsync.pdf))

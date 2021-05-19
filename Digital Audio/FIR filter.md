@@ -1,3 +1,6 @@
+
+---
+---
 # FIR filter
 A Finite Impulse Response (FIR) filter is a kind of digital filter that is implemented by a difference equation that references only past values of the input. A general form for a FIR filter is as follows:
 $$ y[n] = \sum_{i=0}^p a_{i}x[n-i] $$

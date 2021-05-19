@@ -1,3 +1,5 @@
+---
+---
 # Fourier Series
 Fourier's theorem states that any periodic function can be approximated perfectly by some weighted sum of harmonic sine and cosine waves. This sum is often infinite.
 (see: [wikipedia](https://en.wikipedia.org/wiki/Fourier_series))

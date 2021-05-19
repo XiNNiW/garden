@@ -1,3 +1,6 @@
+---
+title: The Climate Impact of High-Tech
+---
 # The Climate Impact of High-Tech
 Technology often has the outward appearance of cleanliness and is marketed in a way as to make it appear free from ecological consequence.
 

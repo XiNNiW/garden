@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "63ba4a93c2964a1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae28065834184a89",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Songwriting/Strophic form.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "283b6631029fb356",
+    "type": "split",
+    "children": [
+      {
+        "id": "27e9175b10464353",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "186e6de070477248",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0e888b030f290afc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd09fa82fbe2fac0",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1aecc70f0f4004e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66cd59505167057f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Songwriting/Strophic form.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ae28065834184a89",
+  "lastOpenFiles": [
+    "Songwriting/Strophic form.md",
+    "Digital Audio/White Noise.md",
+    "Digital Audio/sample rate reduction.md",
+    "Digital Audio/Performance Requirements of Real-time DSP.md",
+    "Digital Audio/numerically controlled oscillator.md",
+    "Digital Audio/non-causal filter.md",
+    "Digital Audio/minBLEP.md",
+    "Digital Audio/IIR filter.md",
+    "Digital Audio/FM Synthesis.md",
+    "Digital Audio/FIR filter.md"
+  ]
+}

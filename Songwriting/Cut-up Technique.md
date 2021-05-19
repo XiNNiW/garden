@@ -1,3 +1,6 @@
+
+---
+---
 # Cut-up Technique
 
 Pioneered by poet William Burroughs, cut-up technique is the process of dissolving some corpus of text into its component words and generating poetry from those words. This generated poem can be left as is or subjected to further polishing and editing.

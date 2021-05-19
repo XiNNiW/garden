@@ -1,3 +1,6 @@
+
+---
+---
 # Bandlimited Oscillator
 Within digital audio, a band limited oscillator is any oscillator algorithm that refrains from producing harmonics above the 1/2 sample rate limit. It produces no [[aliasing]] artifacts. (see: [[Bandlimiting]])
 

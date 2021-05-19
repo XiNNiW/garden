@@ -1,3 +1,6 @@
+
+---
+---
 # Sample Rate Reduction
 Sample rate reduction is an audio effect where the audio signal is deliberately under-sampled so as to produce in-harmonic [[aliasing]] distortion and limit the maximum frequency. 
 

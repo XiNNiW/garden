@@ -1,3 +1,6 @@
+
+---
+---
 # Numerically Controlled Oscillator
 A numerically controlled oscillator is a simple algorithm for computing the changing phase of an oscillator over time. It can be used to make all kinds of waveforms and is often at the heart of more complicated synthesis algorithms. (see: [[FM Synthesis]])
 

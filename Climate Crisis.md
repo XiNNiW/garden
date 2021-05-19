@@ -1,3 +1,6 @@
+---
+title: Climate Crisis
+---
 # Climate Crisis
 The climate crisis is the human caused warming of the planet and all potential ramifications of that warming. The name apt as we are running out of time to avert the worst consequences. 
 

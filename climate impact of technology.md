@@ -13,12 +13,12 @@ Waiting for the hardware to fail takes too long. Tech companies can secure reven
 
 As computers are embedded into more and more things (eg "smart" TV, appliances, tractors, cars, ect..), software can render more and more consumer goods unusable over time and a faster and more controllable interval. 
 
-This can even our revenue at great cost to the consumer and to the planet.
+This can boost corporate revenue at great cost to the consumer and to the planet.
 
-The main response from large manufacturers like Apple has been to promise improvements to their inadequate recycling infrastructure.
+The main response from large manufacturers like Apple has been to promise improvements to their inadequate recycling infrastructure, and to mount legal resistance to the [right to repair](https://en.wikipedia.org/wiki/Electronics_right_to_repair) movement.
 
 ## power consumption
-Computers use a lot of [power](https://www.theguardian.com/environment/2017/dec/11/tsunami-of-data-could-consume-fifth-global-electricity-by-2025). The modern internet with its endless feeds, streaming content, and feature rich front end gave rise to "cloud" infrastructure. Cloud computing is nothing more than enormous redundant data centers where servers are shared among many tenants. These data centers consume a lot of power. As our technology becomes more feature rich (read: slower) and networked demands more ubiquitous (eg. ~~dumb~~ Smart Devices and the internet of ~~sh\*t~~ things) its power demands become every higher.
+Computers use a lot of [power](https://www.theguardian.com/environment/2017/dec/11/tsunami-of-data-could-consume-fifth-global-electricity-by-2025). The modern internet with its endless feeds, streaming content, and feature rich front-ends gave rise to "cloud" infrastructure. Cloud computing is nothing more than enormous redundant data centers where servers are shared among many tenants. These data centers consume a lot of power. As our technology becomes more feature rich (read: slower) and networked demands more ubiquitous (eg. ~~dumb~~ Smart Devices and the internet of ~~sh\*t~~ things) its power demands become every higher.
 
 ## system cost
 Even if you are able to source your energy from renewable means, there is no guarantee that the cloud infrastructure that your are forced to interact with will. Even if every part of the cloud infrastructure you interact with sources its power from renewable means, the system overall is consuming power budget that could have gone to other purposes. Also, the embodied carbon cost of the massive amount of equipment required to maintain the infrastructure is, on its own, untenable.

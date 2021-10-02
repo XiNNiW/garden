@@ -1,7 +1,7 @@
 # Databending
-Databending is an artistic practice where the artist operates on the raw data of a media file as a means of manipulating it aesthetically.
+Databending is an artistic practice where the artist operates on the raw data of a media file as a means of manipulating it.
 
-One easy way to do this is to open a media as if it were a different kind of media file and edit it in a program. (eg. open a `.bmp` file in audacity and apply reverb) (see Antonio Robert's site for a great [tutorial](https://www.hellocatfood.com/databending-using-audacity/) )
+One easy way to do this is to open a media as if it were a different kind of media file and edit it using that media's tools. (eg. open a `.bmp` file in audacity and apply reverb) (see Antonio Robert's site for a great [tutorial](https://www.hellocatfood.com/databending-using-audacity/) )
 
 Another would be to use a text editor to mess with the characters of an image file. 
 

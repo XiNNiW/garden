@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Jevon's Paradox.md",
+            "file": "Permacomputing.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Jevon's Paradox.md",
+                "file": "Permacomputing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "ae28065834184a89",
   "lastOpenFiles": [
-    "Jevon's Paradox.md",
-    "Garden vs. Stream dichotomy.md",
-    "Fourier series.md",
-    "DSF.md",
-    "digital garden.md",
-    "Deep Listening.md",
-    "Databending.md",
+    "Permacomputing.md",
     "climate impact of technology.md",
-    "Climate Crisis.md",
-    "Bandlimiting.md"
+    "Untitled.md",
+    "Songwriting/primary chords.md",
+    "Songwriting/Untitled.md",
+    "Digital Audio/sample rate reduction.md",
+    "Digital Audio/Performance Requirements of Real-time DSP.md",
+    "Software Engineering/Wirth's Law.md",
+    "Digital Audio/aliasing.md",
+    "Songwriting/Through Composed Form.md"
   ]
 }

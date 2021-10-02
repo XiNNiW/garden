@@ -1,0 +1,4 @@
+# Chiptune
+Chiptune is a musical genre that includes and is inspired by the music that was composed for early videogame systems using early sound synthesizer chips with limited voices and limited sound options. For example, the SID chip had only 4 voices (a pulse, a saw, a noise generator, and a triangle wave). Because early chips had these limitations, the music often makes heavy use of arpeggiation to outline harmony. 
+Modern chiptune may choose to ignore these limitations and instead using these voice saving techniques, and sound palettes, stylistically.
+Many chiptune songs have a sense of nostalgia, referencing playful experiences that many listeners had, or imagined that they had, in childhood. Vaporwave music will sometimes make use of chiptune textures, self consciously referencing this nostalgia in a way that disorients it; placing it near sampled sounds from advertisements, corporate training videos, and other ironically reclaimed sounds.

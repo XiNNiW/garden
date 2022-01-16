@@ -1,0 +1,3 @@
+# PolyBLEP
+
+PolyBLEP (which stands for polynomial bandlimited step) is a technique for anti-aliasing. [Aliasing](aliasing) occurs when a signal contains frequency components that are higher than the Nyquist limit of 1/2 the sample rate. Sudden discontinuities in waveforms (like those found in classic analog waveforms like saw and square) theoretically contain an infinite amount of harmonics. Naive implementations of these shapes will certainly alias in ways that are audible. PolyBLEP reduces the aliasing associated with these discontinuities by replacing them with smoother polynomial segments. This method does not totally eliminate aliasing but can reduce it dramatically for the most sensitive areas of hearing. 

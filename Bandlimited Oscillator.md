@@ -17,8 +17,9 @@ Here are some algorithms for generating bandlimited waves:
 1. [[BLIT]]
 2. [[BLEP]]
 3. [[minBLEP]]
-4. [[DSF]]
-5. [[Additive Synthesis]]
+4. [[PolyBLEP]]
+5. [[DSF]]
+6. [[Additive Synthesis]]
 
 Sometimes it is not possible or not feasible to band-limit an oscillator algorithm. (eq. [[FM Synthesis]]) In those circumstances [Quasi-Bandlimited](Quasi-Bandlimited Oscillator.md) techniques are useful. 
 

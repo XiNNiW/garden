@@ -9,7 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "Permacomputing.md",
+=======
+            "file": "Songwriting/index.md",
+>>>>>>> 5b8e895 (started using vimwiki... reorganized files to remove folder organization... hopefully this will let more connections be made and have less overhead... i may need to reintroduce them later as more notes accumulate)
             "mode": "source"
           }
         }
@@ -68,14 +72,18 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Permacomputing.md",
+=======
+                "file": "Songwriting/index.md",
+>>>>>>> 5b8e895 (started using vimwiki... reorganized files to remove folder organization... hopefully this will let more connections be made and have less overhead... i may need to reintroduce them later as more notes accumulate)
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -83,11 +91,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "ae28065834184a89",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Permacomputing.md",
     "climate impact of technology.md",
     "Untitled.md",
@@ -98,5 +106,17 @@
     "Software Engineering/Wirth's Law.md",
     "Digital Audio/aliasing.md",
     "Songwriting/Through Composed Form.md"
+=======
+    "Songwriting/index.md",
+    "Guitar/Guitar Tunings.md",
+    "Digital Audio/DSF.md",
+    "Digital Audio/Bandlimited Oscillator.md",
+    "Digital Audio/IIR filter.md",
+    "Digital Audio/Bandlimiting.md",
+    "Fourier series.md",
+    "Digital Audio/White Noise.md",
+    "Digital Audio/aliasing.md",
+    "Digital Audio/BLIT.md"
+>>>>>>> 5b8e895 (started using vimwiki... reorganized files to remove folder organization... hopefully this will let more connections be made and have less overhead... i may need to reintroduce them later as more notes accumulate)
   ]
 }

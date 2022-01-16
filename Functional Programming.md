@@ -6,6 +6,6 @@ This pure code has [[Referential Transparency]] and it is possible to reason abo
 ## common features
 The following are generally common to functional design. However, not all languages have built in support for these concepts. Trying to keep code pure can be puzzling as a computer program is inherently useless until it produces some tangible side effect. The following language features generally make this puzzle easier to solve.
 
--[[Closures]]
--[[Partial Application]]
--[[Lazy Evaluation]]
+- [[Closures]]
+- [[Partial Application]]
+- [[Lazy Evaluation]]

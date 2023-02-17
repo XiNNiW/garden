@@ -79,7 +79,7 @@ Licensing information for the writing in the garden is contained in the project 
 - [Jevon's Paradox](Jevon's Paradox)
 - [Lazy Evaluation](Lazy Evaluation)
 - [Learning Songwriting](Learning Songwriting)
-- [Linear Predictive Coding (LPC)](Linear Predictive Coding (LPC)
+- [Linear Predictive Coding (LPC)](Linear Predictive Coding)
 - [List of Electronic Music Conferences](List Of Electronic Music Conferences)
 - [Listening List](Listening List)
 - [Livecoding](Livecoding)

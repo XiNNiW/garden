@@ -1,29 +1,27 @@
 # Reading List
 
 ## currently reading
-- The Telling - Ursula K. Leguin
+- Chokepoint Capitalism by Rebecca Giblin and Cory Doctorow
 
 
 ## read recently
-- The Dispossessed - Ursula K. Leguin
-- Planet Of Exile - Ursula K. Leguin
-- City of Illusions - Ursula K. Leguin
-- Five Ways to Forgiveness - Ursula K. Leguin
-- The Word for World is Forest - Ursula K. Leguin
-- Rocconan's World - Ursula K. Leguin
-- The Day Before the Revolution - Ursula K. Leguin
-- Winter's King - Ursula K. Leguin
-- The Left Hand of Darkness - Ursula K. Leguin
+- The Telling - [Ursula K. LeGuin](Ursula K. Leguin)
+- The Dispossessed - [Ursula K. LeGuin](Ursula K. LeGuin)
+- Planet Of Exile - [Ursula K. LeGuin](Ursula K. Leguin)
+- City of Illusions - [Ursula K. LeGuin](Ursula K. Leguin)
+- Five Ways to Forgiveness - [Ursula K. LeGuin](Ursula K. Leguin)
+- The Word for World is Forest - [Ursula K. LeGuin](Ursula K. Leguin)
+- Rocconan's World - [Ursula K. LeGuin](Ursula K. Leguin)
+- The Day Before the Revolution - [Ursula K. LeGuin](Ursula K. Leguin)
+- Winter's King - [Ursula K. LeGuin](Ursula K. Leguin)
+- The Left Hand of Darkness - [Ursula K. LeGuin](Ursula K. Leguin)
 - Things We Could Design - Ron Wakkary
-- [The Dawn of Everything](The Dawn of Everything) by [David Graeber](David Graeber)
 - [How to Blow Up a Pipeline](How to Blow Up a Pipeline) by Andreas Malm
-- [Bullshit Jobs](Bullshit Jobs) by [David Graeber](David Graeber)
 - White Teeth by [Zadie Smith](Zadie Smith)
 - The Deep by [Rivers Solomon](Rivers Solomon)
 - The Parable of the Sower by [Octavia E Butler](Octavia E Butler)
 - The Parable of Talents by [Octavia E Butler](Octavia E Butler)
 - How to Write One Song by Jeff Tweedy
->>>>>>> 1a725c9 (been a while since I checked in huh?)
 - [INTRODUCTION TO DIGITAL FILTERS](https://ccrma.stanford.edu/~jos/filters/) by Julius O. Smith
 - [Debt (the first 5,000 years)](Debt \(the first 5,000 years\)) by [David Graeber](David Graeber)
 
@@ -31,12 +29,13 @@
 - The Unkindness of Ghosts by [Rivers Solomon](Rivers Solomon)
 - Oryx and Crake by [Margret Atwood](Margret Atwood)
 - The Crossing by [Cormac McCarthy](Cormac McCarthy)
-- [The Dispossessed](The Dispossessed) - Ursula K. Leguin
+- [The Dispossessed](The Dispossessed) - [Ursula K. LeGuin](Ursula K. Leguin)
 - The Parable of the Sower by [[Octavia E Butler]]
 - The Parable of Talents by [[Octavia E Butler]]
-- How to Write One Song by Jeff Tweedy
+- How to Write One Song by [Jeff Tweedy](Jeff Tweedy)
 - The Unkindness of Ghosts by [[Rivers Solomon]]
-- The Dawn of Everything by [[David Graeber]]
+- [The Dawn of Everything](The Dawn of Everything) by [David Graeber](David Graeber)
+- [Bullshit Jobs](Bullshit Jobs) by [David Graeber](David Graeber)
 - Debt: The First 5000 Years, David Graeber
 - Oryx and Crake by [[Margret Atwood]]
 - The Crossing by [[Cormac McCarthy]]

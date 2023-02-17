@@ -9,7 +9,7 @@ When I think about the topics that have held my interest over the last few years
 - pattern music/algorithmic expression/heritage algorithms
 - community/freedom/responsibility/anarchy
 - FOSS/federation
-- human economies, value and values, caring labor
+- human economies, value and values, caring labor, the work of mutually creating one another
 
 ### what does a successful solution look like?
 Ultimately the problem is bigger than music tech, tech in general, or even production and consumption. In order to survive the climate crisis we will need to upend the received moral wisdom about value, values and the meaning of work. Our economies will need to be re-organized to emphasize caring labor. Caring in that it is primarily focused on the creation of one another and the flourishing of the land.

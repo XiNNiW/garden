@@ -5,8 +5,6 @@
 !_TAG_PROGRAM_NAME	Vimwiki Tags
 !_TAG_PROGRAM_URL	https://github.com/vimwiki/vimwiki
 !_TAG_PROGRAM_VERSION	2022.12.02
-<<<<<<< HEAD
-=======
 TODO	SIMD vectorization.md	8;"	vimwiki:SIMD vectorization\tSIMD vectorization#TODO\tSIMD vectorization#TODO
 cc-by-nc-sa	Production.md	1;"	vimwiki:Production\tProduction\tProduction
 cc-by-nc-sa	learning Tidalcycles.md	1;"	vimwiki:learning Tidalcycles\tlearning Tidalcycles\tlearning Tidalcycles
@@ -25,15 +23,14 @@ cc0	Climate Crisis.md	2;"	vimwiki:Climate Crisis\tClimate Crisis#climate-crisis\
 cc0	Closures.md	2;"	vimwiki:Closures\tClosures#closures\tClosures
 cc0	Cut-up Technique.md	2;"	vimwiki:Cut-up Technique\tCut-up Technique#cut-up-technique\tCut-up Technique
 cc0	DSF.md	2;"	vimwiki:DSF\tDSF#dsf-discrete-summation-formula\tDSF (Discrete Summation Formula)
-cc0	Databending.md	2;"	vimwiki:Databending\tDatabending#databending\tDatabending
-cc0	Debt (the first 5,000 years).md	1;"	vimwiki:Debt (the first 5,000 years)\tDebt (the first 5,000 years)\tDebt (the first 5,000 years)
+cc0	Databending.md	1;"	vimwiki:Databending\tDatabending\tDatabending
 cc0	Debt: The First 5,000 years.md	1;"	vimwiki:Debt: The First 5,000 years\tDebt: The First 5,000 years\tDebt: The First 5,000 years
 cc0	Deep Listening.md	2;"	vimwiki:Deep Listening\tDeep Listening#deep-listening\tDeep Listening
 cc0	Digital Audio.md	2;"	vimwiki:Digital Audio\tDigital Audio#digital-audio\tDigital Audio
 cc0	FIR filter.md	2;"	vimwiki:FIR filter\tFIR filter#fir-filter\tFIR filter
 cc0	FM Synthesis.md	2;"	vimwiki:FM Synthesis\tFM Synthesis#fm-synthesis\tFM Synthesis
 cc0	Field Recording.md	2;"	vimwiki:Field Recording\tField Recording#field-recording\tField Recording
-cc0	Folk song forms.md	2;"	vimwiki:Folk song forms\tFolk song forms#folk-song-forms\tFolk Song Forms
+cc0	Folk song forms.md	1;"	vimwiki:Folk song forms\tFolk song forms\tFolk song forms
 cc0	Fourier series.md	2;"	vimwiki:Fourier series\tFourier series#fourier-series\tFourier Series
 cc0	Functional Core, Imperative Shell.md	2;"	vimwiki:Functional Core, Imperative Shell\tFunctional Core, Imperative Shell#functional-core-imperative-shell\tFunctional Core, Imperative Shell
 cc0	Functional Programming.md	2;"	vimwiki:Functional Programming\tFunctional Programming#functional-programming\tFunctional Programming
@@ -45,9 +42,9 @@ cc0	SIMD vectorization.md	2;"	vimwiki:SIMD vectorization\tSIMD vectorization#sin
 cc0	Software Engineering.md	2;"	vimwiki:Software Engineering\tSoftware Engineering#software-engineering\tSoftware Engineering
 cc0	Test Driven Design.md	2;"	vimwiki:Test Driven Design\tTest Driven Design#test-driven-design\tTest Driven Design
 cc0	The Paradox Of Sovereignty.md	2;"	vimwiki:The Paradox Of Sovereignty\tThe Paradox Of Sovereignty#the-paradox-of-sovereignty\tThe Paradox of Sovereignty
-cc0	Wirth's Law.md	2;"	vimwiki:Wirth's Law\tWirth's Law#wirths-law\tWirth's Law
+cc0	Wirth's Law.md	1;"	vimwiki:Wirth's Law\tWirth's Law\tWirth's Law
 cc0	hyperpop.md	2;"	vimwiki:hyperpop\thyperpop#hyperpop\tHyperpop
-cc0	index.md	2;"	vimwiki:index\tindex#digital-garden\tDigital Garden
+cc0	index.md	1;"	vimwiki:index\tindex\tindex
 cc0	learning.md	1;"	vimwiki:learning\tlearning\tlearning
 cc0	learning.md	1;"	vimwiki:learning\tlearning\tlearning
 cc0	loop unrolling.md	2;"	vimwiki:loop unrolling\tloop unrolling#loop-unrolling\tLoop Unrolling
@@ -67,4 +64,3 @@ stub	pollard - cutup poetry assistant.md	1;"	vimwiki:pollard - cutup poetry assi
 writing	bottom drawer.md	1;"	vimwiki:bottom drawer\tbottom drawer\tbottom drawer
 writing	bottom drawer.md	1;"	vimwiki:bottom drawer\tbottom drawer\tbottom drawer
 z-2022	diary/2022-03-13.md	1;"	vimwiki:diary/2022-03-13\tdiary/2022-03-13\tdiary/2022-03-13
->>>>>>> 1a725c9 (been a while since I checked in huh?)

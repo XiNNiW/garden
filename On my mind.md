@@ -1,6 +1,7 @@
 # Currently on my mind
 
-- [designing a sustainable virtual music machine](fantasy virtual music machine) 
+- [Generative Justice](Generative Justice)
+- [designing a sustainable virtual music machine](fantasy virtual music machine)
 - [sustainable computing](sustainable computing) and [the climate impact of technology](climate impact of technology)
 - poetry and [lyrics](Lyric Writing Techniques)
 - [learning](learning) methods and [Non-linear note-taking](Non-linear note-taking)

@@ -1,5 +1,5 @@
-# Digital Garden
 :cc0:
+# Digital Garden
 
 # Meta
 [vimwiki cheatsheet](vimwiki cheatsheet)
@@ -12,20 +12,17 @@
 - [ideas](ideas)
 - [lichensound](lichensound)
 - [MA in Media Arts](MA in Media Arts)
+- [Potential Thesis Ideas](Potential Thesis Ideas)
 - [Tranquility](Tranquility: Tidalcycles ported to lua.md)
 - [NZ GAME ON FIGHTING GAME](NZ GAME ON FIGHTING GAME)
 
 # Contents
-- [Learning](learning) - notes [on](on) trying to teach myself things
-- [Songwriting](Songwriting) - learning to write songs
-- [Guitar](Guitar) - learning to play the guitar
-- [Bass Guitar](Bass Guitar) - learning to play the bass
-- [Production](Production) - learning to produce and mix music
-- [Tidalcycles](learning Tidalcycles) - learning to make [livecoded](Livecoding) music with tidalcycles
-- [Digital Audio](Digital Audio) - learning digital signal processing for sound
-- [Software Engineering](Software Engineering) - learning software development
-- [Climate Crisis](Climate Crisis) - learning about the climate crisis
 
+- [Digital Garden](#digital-garden)
+- [Meta](#meta)
+- [Projects](#projects)
+- [Licensing](#licensing)
+- [Generated Links](#generated-links)
 
 # Licensing
 Licensing information for the writing in the garden is contained in the project [README](README.md).
@@ -43,6 +40,7 @@ Licensing information for the writing in the garden is contained in the project 
 - [Bridge](Bridge)
 - [Bullshit Jobs](Bullshit Jobs)
 - [Chartalism](Chartalism)
+- [Chiptune](Chiptune)
 - [Chorus](Chorus)
 - [Climate Crisis](Climate Crisis)
 - [Closures](Closures)
@@ -64,7 +62,9 @@ Licensing information for the writing in the garden is contained in the project 
 - [Fourier Series](Fourier series)
 - [Functional Core, Imperative Shell](Functional Core, Imperative Shell)
 - [Functional Programming](Functional Programming)
+- [Gall's Law](Gall's Law)
 - [Garden vs. Stream](Garden v Stream dichotomy)
+- [Generative Justice](Generative Justice)
 - [Personal Statement](Grad School - Personal Statement)
 - [Statement of Purpose](Grad School - Statement of Purpose)
 - [Guitar](Guitar)
@@ -72,6 +72,7 @@ Licensing information for the writing in the garden is contained in the project 
 - [Harmonic Patterns In Songs](Harmonic Patterns In Songs)
 - [How to Blow Up A Pipeline](How to Blow Up a Pipeline)
 - [How to Write One Song](How to Write One Song)
+- [Human Economy](Human Economy)
 - [IIR Filter](IIR filter)
 - [Immersive Media](Immersive Media)
 - [Interesting sustainable music-tech projects](Interesting Sustainable Music-tech projects)
@@ -90,9 +91,11 @@ Licensing information for the writing in the garden is contained in the project 
 - [fighting game mechanics](NZ GAME ON FIGHTING GAME)
 - [Non-linear Note-taking](Non-linear note-taking)
 - [Currently on my mind](On my mind)
+- [Organic Music](Organic Music)
 - [Pairing](Pairing)
 - [Partial Application](Partial Application)
 - [Performance Requirements of Real-time DSP](Performance Requirements of Real-time DSP)
+- [Permacomputing](Permacomputing)
 - [PolyBLEP](PolyBLEP)
 - [Pop song form](Pop song form)
 - [Potential Thesis Ideas](Potential Thesis Ideas)
@@ -104,7 +107,10 @@ Licensing information for the writing in the garden is contained in the project 
 - [Referential Transparency](Referential Transparency)
 - [Single Instruction Multiple Data](SIMD vectorization)
 - [Software Engineering](Software Engineering)
+- [Song Forms](Song forms)
 - [Contents](Songwriting)
+- [Lyric Writing Techniques](Songwriting/Lyric Writing Techniques)
+- [Pop song form](Songwriting/Pop song form)
 - [Strophic form](Strophic form)
 - [Synthesis Methods](Synthesis Methods)
 - [Telegraph](Telegraph Chaotic Resonance Synthesizer)
@@ -112,6 +118,7 @@ Licensing information for the writing in the garden is contained in the project 
 - [The Dawn Of Everything by David Graeber and David Wengrow](The Dawn of Everything)
 - [The Dispossessed](The Dispossessed)
 - [The Paradox of Sovereignty](The Paradox Of Sovereignty)
+- [Through Composed Form](Through Composed Form)
 - [Tidalcycles](Tidalcycles)
 - [thought on scheduling events](Tranquility: Thoughts on scheduling events)
 - [Tranquility](Tranquility: Tidalcycles ported to lua)

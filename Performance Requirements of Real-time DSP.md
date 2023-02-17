@@ -15,5 +15,5 @@ The above operations have one thing in common: they take an indeterminate amount
 3. Division: It's slower than multiplication.
 
 ## Things to do
-1. [[SIMD vectorization]]: If possible, vectorizing code will make it go much much faster.
-2. Pre-compute as much as possible and store the state for later. (ex. Your [[numerically controlled oscillator]] algorithm doesn't need to know the frequency when its running, it needs to know the phase increment. If you compute the phase increment and store it ahead of time you can avoid writing `TWO_PI*freq/sampleRate` in your rendering code.)
+1. [SIMD vectorization](SIMD vectorization): If possible, vectorizing code will make it go much much faster.
+2. Pre-compute as much as possible and store the state for later. (ex. Your [numerically controlled oscillator](numerically controlled oscillator) algorithm doesn't need to know the frequency when its running, it needs to know the phase increment. If you compute the phase increment and store it ahead of time you can avoid writing `TWO_PI*freq/sampleRate` in your rendering code.)

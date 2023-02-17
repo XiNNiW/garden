@@ -1,4 +1,5 @@
 # Closures 
+:cc0:
 Closures are a way of treating a function as an object. Functional languages generally let the programmer define anonymous functions that "enclose" data that is needed for their function. These functions can then be composed with others to form larger structure. For example, consider the following `js` function:
 ```
 function saySomthing(something) {

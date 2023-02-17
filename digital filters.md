@@ -39,6 +39,6 @@ Answering the above typically involves designing a filter in state space and der
 ## digital filter implementation
 
 1. Convolution with an recorded impulse response
-2. A difference equation with a Finite Impulse Response ([[FIR filter]])
+2. A difference equation with a Finite Impulse Response ([FIR filter](FIR filter))
 2. A difference equation with a Infinite Impulse Response ([[IIR filter]])
 2. A difference equation with lookahead ([[non-causal filter]])

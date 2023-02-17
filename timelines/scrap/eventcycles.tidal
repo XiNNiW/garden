@@ -1,0 +1,82 @@
+-- eventcycles
+)
+
+
+d1 
+$ overlay ( press $  n "4 <3? ~ ~ ~>" #s "speech")
+$ inside 8 (when (\c-> ((((c + 0)*7) `rem` 16))>9) ( const $ jux rev $ plyWith "<12 3 4 64>" (|* gain 0.9) $ "hh") )
+$ inside 8 (when (\c-> ((((c + 4)*3) `rem` 16))>9) ( const $ rev $ plyWith "<1 2 3 4>" (|* gain 0.8) $ "cp") )
+$ inside 8 (when (\c-> ((((c + 0)*7) `rem` 16))<9) ( const $ plyWith "<3 3 2 1 <9 0>>" (|* gain 0.9) $ "bd"))
+$ silence
+
+hush
+
+d1 
+$ every 4 ( spreadr ($) [ (# speed "-0.5"),const $ s "bassdm(3,8)",(press.(iter 8)), (rev.ghost), (rev . (plyWith "4" (|* gain 0.8)))])
+$ soak 4 (|* legato 0.8) 
+$ brak
+$ n (run 8) # s "seawolf" #legato 1
+
+
+d1 $ slow 16 $ sound $ step' ["feel:0", "sn:1", "bd:0"]
+(take 512 $ lindenmayer 5 "0:1~~~,1:0~~~2~~~~~0~~~2~,2:2~1~,~:~~1~"
+"0")
+
+let chords = ["[e'min7'ii b'min7]", "d'maj7'i",  "[g'm11'ii]", "d'maj7'iii"]
+in
+d1 
+$ stack [
+note (
+    fingerpick (cat chords)
+    $ someCycles (overlay "5 6 7 . 9")
+    $ sew "t(3,8)" "[<0 1> -1,3 . 2 1 , 5]" (run 8)
+) #s "midi" #gain 0.79 #legato 1 #midichan 0
+, s "hh:5*8" #pan (slow 4 $ saw)
+]  # cps (slow 4$0.5 + 0.15*saw) 
+
+
+:t fingerpick
+
+hush
+
+poop chordPat p = unwrap ( (toScale <$> chordPat) <*> p)
+
+:t poop
+
+
+d1 
+$ soak 4 (|* legato 0.8) 
+$ note (scale "hexDorian" $  soak 4 (spreadr (+)  ["-1 . 1 -1 -2", "1 . 2 1"]) $ "0 1 . 2 3 4") # s "midi" #gain 0.7 #legato 1.2 #midichan 0
+
+
+:t soak 4 (+ (range "-1" 1 $irand 2))
+
+:t toScale (run 5)
+
+:t unwrap ( (toScale <$> (run 5)) <*> (run 5))
+
+poop chords = 
+
+:t (toScale <$> (run 8)) <*> (run 8)
+
+
+pre1 =  map (\el-> ([fst el], [snd el]))
+
+p2 = (foldr (++) . fst, foldr (++) . snd)
+
+pre3 =  pre2 . pre1
+
+:t pre2
+    ch degree flavor = (degree, flavor)
+    pre1 =  map (\el-> ([fst el], [snd el]))
+    pre2 = foldr (\cur prev -> (((fst cur) ++ (fst prev)), ((snd cur) ++ (snd prev)) )) 
+    pre3 =  pre2 . pre1
+
+chordList
+
+
+
+d1  $ slow 2 $ substruct "<t t t f>"  $ s "bd bd . sn" 
+
+hush
+

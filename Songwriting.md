@@ -1,5 +1,6 @@
 # Contents
 
+- [Learning Songwriting](Learning Songwriting)
 - [AABA song form](AABA song form)
 - [Bridge](Bridge)
 - [Chorus](Chorus)

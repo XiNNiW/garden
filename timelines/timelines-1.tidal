@@ -1,0 +1,149 @@
+]
+
+hush
+
+
+setbpm 80
+
+p "clock" $ fast 2 $ midicmd "midiClock*48" #s "midi"
+
+d1 
+$ stack [
+    s "[bd sd:3] rm*3 rm*4 rm*[5 9]" #gain (inside 2 (every 2 (|* (range 0.8 1 $ saw))) $ "1 0.88*3 0.9*4 1*[5 9]")
+    , s "less"
+    -- , s "hh27*8"
+    , slow 4 $ n "0 . ~ [[~0] -4]" #s "outdoor" # hpf 400
+]
+
+d1 
+$ stack [
+    s "[bd sd:3] rm*3 rm*4 rm*[5 9]" #gain (inside 2 (every 2 (|* (range 0.8 1 $ saw))) $ "1 0.88*3 0.9*4 1*[5 9]")
+    , s "less"
+    , s "hh27*8" # gain (range 1 0.78 $ fast 8 $ tri)--s "efm_cy*8" #legato 1.25
+    , slow 4 $ n "0 . ~ [[~0] -4]" #s "outdoor" # hpf 700
+]
+
+d1 
+$ stack [
+    s "[bd sd:3] rm*3 rm*4 rm*[5 9]"  #gain (inside 2 (every 2 (|* (range 0.8 1 $ saw))) $ "1 0.88*3 0.9*4 1*[5 9]")
+    , s "less"
+    , s "hh27*8" # gain (range 1 0.78 $ fast 8 $ tri)
+    , s "{~ cp}%4"
+    , slow 4 $ n "0 . ~ [[~0] -4]" #s "outdoor" # hpf 700
+]
+
+hush
+
+d1 
+$ ply "1 [1 3] [1 4] [[1 5] [1 9]]"
+$ note (
+    fingerpick (cat ["ds'maj9", "gs'maj7"]) 
+    $ "0 . ~ 3*3 . 2 1 0 -1" +"[0, <3 5>, [<8 7 7 6> . 2 [~ 1] . 3 ~]]"
+) #s "midi" #midichan 0 #octave 5
+
+d2
+$ stack [
+    s "[bd sd:3] rm*3 rm*4 rm*[5 9]" #gain (inside 2 (every 2 (|* (range 0.8 1 $ saw))) $ "1 0.88*3 0.9*4 1*[5 9]")
+    , s "less"
+    , s "hh27*8" # gain (range 1 0.78 $ fast 8 $ tri)
+    , slow 4 $ n "0 . ~ [[~0] -4]" #s "outdoor" # hpf 700
+]
+
+d3 
+-- $ ply "1 [1 3] [1 4] [[1 5] [1 9]]"
+$ note (
+    fingerpick (cat ["ds'maj9", "gs'maj7"]) 
+    $ "[0,5,6] . ~ [2,7,8]"
+) #s "midi" #midichan 1 #octave 3
+
+d2
+$ chunk 4 (rev)
+$ stack [
+    s "[bd sd:3] rm*3 rm*4 rm*[5 9]" #gain (inside 2 (every 2 (|* (range 0.8 1 $ saw))) $ "1 0.88*3 0.9*4 1*[5 9]")
+    , s "less"
+    , s "hh27*8" # gain (range 1 0.78 $ fast 8 $ tri)
+    , s "{~ cp}%4"
+    , slow 4 $ n "0 . ~ [[~0] -4]" #s "outdoor" # hpf 700
+]
+
+d4 
+-- $ ply "1 [1 3] [1 4] [[1 5] [1 9]]"
+$ note (
+    fingerpick (cat ["ds'maj9", "gs'maj7"]) 
+    $ (run 8)
+) #s "midi" #midichan 2 #octave 5
+
+d1 
+$ ply "1 [1 3] [1 4] [[1 5] [1 9]]"
+$ note (
+    fingerpick (cat ["ds'maj9", "gs'maj7"]) 
+    $ "0 . ~ 3*3 . 2 1 0 -1" +"[0, <3 5>, [<8 7 7 6> . 2 [~ 1] . 3 ~]]"
+) #s "midi" #midichan 0 #octave 4
+
+hush
+
+d3 
+-- $ ply "1 [1 3] [1 4] [[1 5] [1 9]]"
+$ note (
+    fingerpick (cat ["ds'min9", "gs'maj7", "e'6", "b'maj7"]) --, "b'min7", "e'6"
+    $ cat ["[0,5,6] . ~ [2,7,8]", "[0,5,6] . ~ "]
+) #s "midi" #midichan 1 #octave 3
+
+
+d1 
+$ ply "1 [1 3] [1 4] [[1 5] [1 9]]"
+$ note (
+    fingerpick (cat ["ds'min9", "gs'maj7", "e'6", "b'maj7"]) 
+    $ "[0, <3 5>, [<8 7 7 6> . 2 [~ 1] . 3 ~]]"
+) #s "midi" #midichan 0 #octave 5
+
+let midiToFreq n = 440*((2**(1/12))^n)
+    getOvertone root n = log(((midiToFreq root)*n)/440)/log(2**(1/12))
+in
+-- o tones
+d5
+$ (|* gain 0.87)
+-- $ whenmod 64 16 (const $ silence)
+$ note (
+  -- (+ 3)
+  -- $(|+ (scale "hexPhrygian"
+  (|+ (fingerpick (cat ["ds'min9", "gs'maj7", "e'6", "b'maj7"]) 
+    $ "<0 [1 0]>" --"<0 [1 0] 2 [3 -1]>"+3
+    )
+  )
+  $ slow 8
+  $ (fast (run 16) $ getOvertone 0 (run 16))
+)
+# s "<fm01 pm04 modal02>"
+-- # legato 3
+# pF "brightness" 0.1
+# orbit 3
+# octave 4
+# delay 0.8
+# delayfeedback 0.25
+# delaytime 1.5
+# lpf 8000
+# hpf 1200
+# room 0.25
+# size 0.9
+# vowel "<e i o a>"
+#pF "harmonic" 0.5
+#pF "brightness" (rand)
+#pF "stiffness" (rand)
+#pF "distance" (rand)
+# gain 0.7
+
+p "clock" $ fast 2 $ midicmd "midiClock*48" #s "midi";
+
+d3 $ silence
+
+solo 5
+
+setcps w
+
+do
+    hush
+    unsolo 5
+
+
+    

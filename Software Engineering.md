@@ -1,4 +1,5 @@
 # Software Engineering
+:cc0:
 
 - [Functional Core, Imperative Shell](Functional Core, Imperative Shell)
 - [Test Driven Design](Test Driven Design)

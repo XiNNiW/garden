@@ -3,4 +3,4 @@ White noise is noise that is perfectly random. Ideal white noise has equal power
 
 Noise is said to be white when it has approximately equal power in all available frequency bands. 
 
-White noise may be filtered to produce other colors or noise such as [[Pink noise]] and [[Brown noise]].
+White noise may be filtered to produce other colors or noise such as [Pink noise](Pink noise) and [Brown noise](Brown noise).

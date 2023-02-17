@@ -1,23 +1,154 @@
 # Digital Garden
+:cc0:
 
 # Meta
 [vimwiki cheatsheet](vimwiki cheatsheet)
 - [Reading List](Reading List)
+- [Listening List](Listening List)
 - [On my mind](On my mind)
+- [Current Courses](Current Courses)
+
+# Projects
+- [ideas](ideas)
+- [lichensound](lichensound)
+- [MA in Media Arts](MA in Media Arts)
+- [Tranquility](Tranquility: Tidalcycles ported to lua.md)
+- [NZ GAME ON FIGHTING GAME](NZ GAME ON FIGHTING GAME)
 
 # Contents
+- [Learning](learning) - notes [on](on) trying to teach myself things
+- [Songwriting](Songwriting) - learning to write songs
+- [Guitar](Guitar) - learning to play the guitar
+- [Bass Guitar](Bass Guitar) - learning to play the bass
+- [Production](Production) - learning to produce and mix music
+- [Tidalcycles](learning Tidalcycles) - learning to make [livecoded](Livecoding) music with tidalcycles
+- [Digital Audio](Digital Audio) - learning digital signal processing for sound
+- [Software Engineering](Software Engineering) - learning software development
+- [Climate Crisis](Climate Crisis) - learning about the climate crisis
 
-- [Learning](learning) - notes on the process of trying to teach myself things
 
-- [Songwriting](Songwriting) - a wiki about writing songs
-- [Guitar](Guitar) - a wiki about learning to play the guitar
-- [Bass Guitar](Bass Guitar) - a wiki about learning to play the bass
-- [Tidalcycles](learning Tidalcycles) - a wiki about learning to make music with tidalcycles
+# Licensing
+Licensing information for the writing in the garden is contained in the project [README](README.md).
 
-- [Livecoding](Livecoding) - a wiki about the practice of livecoding music
+# Generated Links
 
-- [Digital Audio](Digital Audio) - a wiki about digital signal processing for sound
-
-- [Software Engineering](Software Engineering) - a wiki about software development patterns and techniques
-
-- [Climate Crisis](Climate Crisis) - a wiki about the climate crisis
+- [202two](2020two)
+- [AABA song form](AABA song form)
+- [Resonance FM interview:](Alex McLean)
+- [Algorithms art](Algorithmic Art)
+- [BLIT (Band-Limited Impulse Train)](BLIT)
+- [Band-limited Oscillator](Bandlimited Oscillator)
+- [Band-limiting](Bandlimiting)
+- [Bass Guitar](Bass Guitar)
+- [Bridge](Bridge)
+- [Bullshit Jobs](Bullshit Jobs)
+- [Chartalism](Chartalism)
+- [Chorus](Chorus)
+- [Climate Crisis](Climate Crisis)
+- [Closures](Closures)
+- [Comparison of OSC libraries](Comparison of OSC libraries)
+- [Current Courses](Current Courses)
+- [Cut-up Technique](Cut-up Technique)
+- [DSF (Discrete Summation Formula)](DSF)
+- [Databending](Databending)
+- [Debt (the first 5,000 years)](Debt: The First 5,000 years)
+- [Deep Listening](Deep Listening)
+- [Digital Audio](Digital Audio)
+- [DME 2](Digital Music Ensemble 2: Circus On)
+- [Dorian Electra - My Agenda](Dorian Electra - My Agenda)
+- [FIR filter](FIR filter)
+- [FM Synthesis](FM Synthesis)
+- [Field Recording](Field Recording)
+- [Folk Synthesis](Folk Synthesis)
+- [Folk Song Forms](Folk song forms)
+- [Fourier Series](Fourier series)
+- [Functional Core, Imperative Shell](Functional Core, Imperative Shell)
+- [Functional Programming](Functional Programming)
+- [Garden vs. Stream](Garden v Stream dichotomy)
+- [Personal Statement](Grad School - Personal Statement)
+- [Statement of Purpose](Grad School - Statement of Purpose)
+- [Guitar](Guitar)
+- [Guitar Tuning](Guitar Tunings)
+- [Harmonic Patterns In Songs](Harmonic Patterns In Songs)
+- [How to Blow Up A Pipeline](How to Blow Up a Pipeline)
+- [How to Write One Song](How to Write One Song)
+- [IIR Filter](IIR filter)
+- [Immersive Media](Immersive Media)
+- [Interesting sustainable music-tech projects](Interesting Sustainable Music-tech projects)
+- [Jevon's Paradox](Jevon's Paradox)
+- [Lazy Evaluation](Lazy Evaluation)
+- [Learning Songwriting](Learning Songwriting)
+- [Linear Predictive Coding (LPC)](Linear Predictive Coding (LPC)
+- [List of Electronic Music Conferences](List Of Electronic Music Conferences)
+- [Listening List](Listening List)
+- [Livecoding](Livecoding)
+- [Lyric Writing Techniques](Lyric Writing Techniques)
+- [MA in media arts](MA in Media Arts)
+- [Minimum requirements Abelton Live 1.5](Minimum requirements: Ableton Live 1.5)
+- [2022 EP mirror monster](Mirror Monster 2022 EP)
+- [musical ideas I want to explore more deeply](Musical ideas I want to explore more deeply)
+- [fighting game mechanics](NZ GAME ON FIGHTING GAME)
+- [Non-linear Note-taking](Non-linear note-taking)
+- [Currently on my mind](On my mind)
+- [Pairing](Pairing)
+- [Partial Application](Partial Application)
+- [Performance Requirements of Real-time DSP](Performance Requirements of Real-time DSP)
+- [PolyBLEP](PolyBLEP)
+- [Pop song form](Pop song form)
+- [Potential Thesis Ideas](Potential Thesis Ideas)
+- [Practice Advice (Guitar)](Practice Advice - Guitar)
+- [Prechorus](Prechorus)
+- [Production and Mixing](Production)
+- [David's Digital Garden](README)
+- [Reading List](Reading List)
+- [Referential Transparency](Referential Transparency)
+- [Single Instruction Multiple Data](SIMD vectorization)
+- [Software Engineering](Software Engineering)
+- [Contents](Songwriting)
+- [Strophic form](Strophic form)
+- [Synthesis Methods](Synthesis Methods)
+- [Telegraph](Telegraph Chaotic Resonance Synthesizer)
+- [Test Driven Design](Test Driven Design)
+- [The Dawn Of Everything by David Graeber and David Wengrow](The Dawn of Everything)
+- [The Dispossessed](The Dispossessed)
+- [The Paradox of Sovereignty](The Paradox Of Sovereignty)
+- [Tidalcycles](Tidalcycles)
+- [thought on scheduling events](Tranquility: Thoughts on scheduling events)
+- [Tranquility](Tranquility: Tidalcycles ported to lua)
+- [Verse](Verse)
+- [White noise](White Noise)
+- [Window Function](Window Function)
+- [Wirth's Law](Wirth's Law)
+- [Aliasing](aliasing)
+- [anarchism](anarchism)
+- [boopdeeboop](boopdeeboop)
+- [bottom drawer](bottom drawer)
+- [The Climate Impact of High-Tech](climate impact of technology)
+- [cutups](cutups)
+- [Diary](diary/diary)
+- [pollard](diary/pollard - cutup poetry assistant)
+- [Digital Filter](digital filters)
+- [Digital Gardening](digital garden)
+- [Digital Sampling](digital sampling)
+- [dramatic mich](dramatic mich)
+- [A Fantasy Virtual Machine for Music](fantasy virtual music machine)
+- [Hyperpop](hyperpop)
+- [ideas](ideas)
+- [idk](idk)
+- [Digital Garden](index)
+- [Learning](learning)
+- [Learning Tidalcycles](learning Tidalcycles)
+- [lichensound](lichensound)
+- [Loop Unrolling](loop unrolling)
+- [Mesostic](mesostic)
+- [MinBlep (Minimum Band-Limited Step)](minBLEP)
+- [Permacomputing: Modelling the future of computing](model of future computing)
+- [Non-Causal Filter](non-causal filter)
+- [Numerically Controlled Oscillator](numerically controlled oscillator)
+- [oldz](oldz)
+- [pollard](pollard - cutup poetry assistant)
+- [Primary Chords](primary chords)
+- [Sample Rate Reduction](sample rate reduction)
+- [Sustainable Computing](sustainable computing)
+- [timelines](timelines/timelines)
+- [VimWiki Cheatsheet](vimwiki cheatsheet)

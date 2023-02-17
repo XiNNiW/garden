@@ -1,0 +1,70 @@
+)
+
+hush
+
+let prog = "<[d'maj7@7 f'maj9] f'maj7 [d'm6 . a'6@3 c'maj7] c'maj9 >" ::Pattern Note
+    chorus =  stack [
+                    stack [
+                        note ( 
+                            fingerpick prog 
+                            $ (|+ "[ 0 4]*2")
+                            $ (+ "<0 [-1 . 1 2]>")
+                            $ struct "t(<3 5 3 7>,<8 16>,<3 0 3 0>)"
+                            $ (run 8)
+                        ) #octave 3 #legato "8 2 1 0.1"
+                        ,
+                        slow 8 $ ccv (run 128 )#ccn 0 
+                        ,
+                        ie 2 rev $ slow 8 $ ccv (run 128 )#ccn 1
+                    ] #s "midi" #midichan 0
+                    ,
+                    stack [
+                        note (fingerpick prog $ "0@3 -1")
+                    ] #s "midi" #midichan 1
+                ]
+    verse = silence
+in
+d1  
+$ seqPLoop [
+    (0, 8, chorus),
+    (8, 16, verse)
+    ]
+
+
+let prog = "<[d'maj7@7 f'maj9] f'maj7 [d'm6 . a'6@3 c'maj7] c'maj9 >" ::Pattern Note
+    chorus = ( (~> 5) $ every 4 (rev.ie 4 (plyWith "<2 3>" ((|* velocity 0.5).(|* legato 0.3).(# note (fingerpick prog $ "3")))))
+                $ stack [
+                    stack [
+                        note ( 
+                            fingerpick prog 
+                            $ (|+ "[ 0 4]*2")
+                            $ (+ "<0 [-1 . 1 2]>")
+                            $ struct "t(<3 5 3 7>,<8 16>,<3 0 3 0>)"
+                            $ (run 8)
+                        ) #octave 3 #legato "8 2 1 0.1"
+                        ,
+                        slow 8 $ ccv (run 128 )#ccn 0 
+                        ,
+                        ie 2 rev $ slow 8 $ ccv (run 128 )#ccn 1
+                    ] #s "midi" #midichan 0
+                    ,
+                    stack [
+                        note (fingerpick prog $ "0@3 -1")
+                    ] #s "midi" #midichan 1
+                ])
+    verse = silence
+in
+d1  
+$ seqPLoop [
+    (0, 8, chorus),
+    (8, 16, verse)
+    ]
+
+:t seqPLoop
+
+
+
+
+
+    jux rev $ s "{bd*2 ~ . sn:2 bd . <[bd*2 ~] bd*2> . sn:2 <~ sd ~ [rm sd]>, hh*4}%4"
+    ,

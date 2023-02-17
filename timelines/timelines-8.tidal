@@ -1,0 +1,143 @@
+
+
+hush
+
+setbpm (2*(120/3))
+
+
+let pull n m p = n * (1 + m*p) 
+in
+d1 $ slow 4
+$ (#speed "<0.5 1 [2 1 0.5] [2 1 0.5]>")
+-- $ ply (run 4) 
+$ (#n "<2 0 3 [8@5 3@6]>")
+$ slowSqueeze (rev "1 2 3 4 5 6 1 2 3 4 5")
+$ stack [
+    rev $ striate' 11 (1/16) $ s "clydXcmin" #room (rev saw) #delay (rev saw) #delayt (3/11) #delayfb 0.5 # pan (range 0.25 0.66 saw)
+] #leslie saw #lpf (range 20000 700 saw) #size (rev saw) #octer 0.35 #hpf 150 #djf (rev $ slow 2 tri) -- #vowel (choose ["a","e","u","i"])
+# bpm (pull (pull (2*(120/3)) (1/6) (slow 4 $ tri)) (1/6) tri) 
+
+let pull n m p = n * (1 + m*p) 
+in
+d2 $ slow 4
+-- $ ply (run 4) 
+$ (#note (fingerpick (cat ["e'min11","c'6", "g'6", "d'dom11 e'min11@6"]) $ fast 4 $ "0@5 [2]@6"))
+$ slowSqueeze (rev "1 2 3 4 5 6 1 2 3 4 5")
+$ chunk 11 (rev.ghost)
+$ fast 2
+$ stack [
+    s "efm_bd(4,11)" #pF "mod" (saw) #pF "modFreq" (range 0.25 1.25 saw) #pF "dec" 1 #legato 8 #octave 2 #lpf 11000 #orbit 1
+    ,
+    -- s "rs(5,11,6)" #legato 4 #octave 2 #gain (range 0.66 0.88 $ tri) #lpf 9000 #orbit 2
+    -- ,
+    s "[efm_cp(2,11,5)]" #legato 8 #gain 0.88 #octave 3 #orbit 2 #pF "dec" 1
+    ,
+    s "subCym01(9,11)" #octave 3 #legato "8 2 3 2 3 8 6 3 2 4 2" #gain (fast 11 $ range 0.67 0.88 $ rev saw) #orbit 3
+] #leslie (rev saw) #room (range 0.01 0.07 $ saw) #octer 0.5 #djf (rev tri)
+# bpm (pull (pull (2*(120/3)) (1/6) (slow 4 $ tri)) (1/6) tri) 
+
+let midiToFreq n = 440*((2**(1/12))^n)
+    getOvertone root n = log(((midiToFreq root)*n)/440)/log(2**(1/12))
+in
+-- o tones
+d3
+$ (|* gain 0.87)
+-- $ whenmod 64 16 (const $ silence)
+$ note (
+  -- (+ 3)
+  -- $(|+ (scale "hexPhrygian"
+  (|+ (fingerpick (slow 4 $ cat ["e'min11","c'6", "g'6", "d'dom11 e'min11@6"]) 
+    $"<0 [1 0] 2 [3 -1]>"+3)
+  )
+  $ slow 8
+  $ (fast (run 16) $ getOvertone 0 (run 16))
+)
+# s "<fm01 pm04 modal02>"
+-- # legato 3
+# pF "brightness" 0.1
+# orbit 4
+# octave 4
+# delay 0.8
+# delayfeedback 0.25
+# delaytime 1.5
+# lpf 8000
+# hpf 1200
+# room 0.25
+# size 0.9
+# vowel "<e i o a>"
+#pF "harmonic" 0.5
+#pF "brightness" (rand)
+#pF "stiffness" (rand)
+#pF "distance" (rand)
+# gain 0.7
+
+-- let pull n m p = n * (1 + m*p) 
+-- in
+-- d3 $ slow 4
+-- -- $ ply (run 4) 
+-- $ (#note (fingerpick (cat ["e'min11", "c'maj13", "g'maj13", "d'dom11 e'min11@6"]) $ fast 4 $ run 8))
+-- $ slowSqueeze (rev "1 2 3 4 5 6 1 2 3 4 5")
+-- $ chunk 11 (rev.ghost)
+-- $ fast 2
+-- $ stack [
+--     -- s "midi(2,11)" 
+--     -- ,
+--     s "pm04(7,11)" #octave 4 #gain 0.88 #legato 2 #delay (rev saw) #delayt (3/11) #delayfb (0.3) #djf (fast 11 $ tri) #hpf 1000
+-- ] #leslie (rev saw) #orbit 4
+-- # bpm (pull (pull (2*(120/3)) (1/6) (slow 4 $ tri)) (1/6) tri) 
+
+let pull n m p = n * (1 + m*p) 
+in
+d4 $ slow 4
+$ stack [
+    note (
+        fingerpick (cat ["e'min11", "c'maj13", "g'maj13", "d'dom11 e'min11@6"]) 
+        $ slowSqueeze (rev "1 2 3 4 5 6 1 2 3 4 5")
+        -- $ fast 2
+        $ "<~ [<-3 -2>@5 4@6, 1 ~ 4@7 3@3 ]>" - (run 11)
+    )
+    #s "[modal03,karplus01]" #djf (tri)
+] #octave "8" #gain 0.6 #orbit 5 #legato 4 #delay (0.43) #delay (1/11) #delayfb 0.44 #room 0.1 #leslie tri
+# bpm (pull (pull (2*(120/3)) (1/6) (slow 4 $ tri)) (1/6) tri) 
+
+hush
+
+
+
+d1 $ slow 4
+-- $ ply (run 4) 
+$ (#n "<[7 8] 9 [7 8] [9 10]>")
+$ slowSqueeze (rev "1 2 3 4 5 6 1 2 3 4 5")
+$ stack [
+    rev $ striate' 11 (1/16) $ s "clydXcmin" #room (rev saw) #delay (rev saw) #delayt (3/11) #delayfb 0.5 # pan (range 0.25 0.66 saw)
+] #leslie saw #speed 1 #lpf (range 20000 700 saw) #size (rev saw) #octer 0.35 #hpf 150 #djf (rev saw) -- #vowel (choose ["a","e","u","i"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hush
+
+d1 $ slow 8 $ slowSqueeze (discretise 8 $ range 4 1 $ saw) $ ply (run 5) $ s "[scream03*5,midi]" 
+#pF "indexMod" saw 
+#pF "index" saw
+#pF "fb" saw 
+#note (fingerpick "<e'maj7 ds'min7>" $ choose [(-4),(-3),(-2),(-1),0,1,2,3,4]) 
+#octave 6
+#hpf 500
+#room 0.1
+#gain 0.8
+#vowel (choose ["a", "e", "i", "o", "u"]) 
+

@@ -1,0 +1,6 @@
+# The Paradox of Sovereignty
+:cc0:
+
+The paradox of sovereignty is a legal paradox. The concept of sovereignty has its roots in monarchy and typically refers to the power over life and death that a king holds over his subjects. In the United States, sovereignty is said to be held by the people. The state may have a monopoly on legitimate violence through its police, military, and bureaucracy but this sovereign power is legitimized through its root in the law. The law is made by popularly elected representatives and is thus ultimately an extension of the will of the people. The laws of course are all bound to the constitution, the ultimate law of the land. This is where the paradox comes in. How did the constitution come to be? The U.S. constitution was the product of violent revolution. This violent revolution was, under the laws of the 13 colonies, treasonous. This revolutionary violence is the ultimate source of popular sovereignty. If the violent, and illegal, revolution is said to be the will of the people, how do you distinguish a violent mob from the people? This paradox is unresolved. The consensus seems to be that you distinguish the people's will from illegal mob violence mostly in retrospect. Did they win? Well then, that was the will of the people.
+
+The same paradox arises when you consider other constitutional republics (for example: France).

@@ -1,0 +1,3 @@
+ # Mesostic
+
+ A mesostic is a technique for creating poetry from an existing text. First a word or phrase is chosen. Then you find the first occurrence of the first letter of that word or phrase in the text. You select a certain number of characters on either side of the occurrence in the text and include those characters as the first line in the poem. Then you find the next occurrence of the next letter in the word or phrase. When you are down, the word or phrase is then spelled down the middle of the poem. This is where the name comes from. Mesostic roughly means "middle stick". The chosen word or phrase is the stick down the middle.

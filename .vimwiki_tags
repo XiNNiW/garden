@@ -5,3 +5,66 @@
 !_TAG_PROGRAM_NAME	Vimwiki Tags
 !_TAG_PROGRAM_URL	https://github.com/vimwiki/vimwiki
 !_TAG_PROGRAM_VERSION	2022.12.02
+<<<<<<< HEAD
+=======
+TODO	SIMD vectorization.md	8;"	vimwiki:SIMD vectorization\tSIMD vectorization#TODO\tSIMD vectorization#TODO
+cc-by-nc-sa	Production.md	1;"	vimwiki:Production\tProduction\tProduction
+cc-by-nc-sa	learning Tidalcycles.md	1;"	vimwiki:learning Tidalcycles\tlearning Tidalcycles\tlearning Tidalcycles
+cc-by-nc-sa	learning Tidalcycles.md	1;"	vimwiki:learning Tidalcycles\tlearning Tidalcycles\tlearning Tidalcycles
+cc0	AABA song form.md	1;"	vimwiki:AABA song form\tAABA song form\tAABA song form
+cc0	Algorithmic Art.md	1;"	vimwiki:Algorithmic Art\tAlgorithmic Art\tAlgorithmic Art
+cc0	BLIT.md	1;"	vimwiki:BLIT\tBLIT\tBLIT
+cc0	Bandlimited Oscillator.md	1;"	vimwiki:Bandlimited Oscillator\tBandlimited Oscillator\tBandlimited Oscillator
+cc0	Bandlimiting.md	1;"	vimwiki:Bandlimiting\tBandlimiting\tBandlimiting
+cc0	Bass Guitar.md	1;"	vimwiki:Bass Guitar\tBass Guitar\tBass Guitar
+cc0	Bridge.md	1;"	vimwiki:Bridge\tBridge\tBridge
+cc0	Bullshit Jobs.md	2;"	vimwiki:Bullshit Jobs\tBullshit Jobs#bullshit-jobs\tBullshit Jobs
+cc0	Chartalism.md	2;"	vimwiki:Chartalism\tChartalism#chartalism\tChartalism
+cc0	Chorus.md	2;"	vimwiki:Chorus\tChorus#chorus\tChorus
+cc0	Climate Crisis.md	2;"	vimwiki:Climate Crisis\tClimate Crisis#climate-crisis\tClimate Crisis
+cc0	Closures.md	2;"	vimwiki:Closures\tClosures#closures\tClosures
+cc0	Cut-up Technique.md	2;"	vimwiki:Cut-up Technique\tCut-up Technique#cut-up-technique\tCut-up Technique
+cc0	DSF.md	2;"	vimwiki:DSF\tDSF#dsf-discrete-summation-formula\tDSF (Discrete Summation Formula)
+cc0	Databending.md	2;"	vimwiki:Databending\tDatabending#databending\tDatabending
+cc0	Debt (the first 5,000 years).md	1;"	vimwiki:Debt (the first 5,000 years)\tDebt (the first 5,000 years)\tDebt (the first 5,000 years)
+cc0	Debt: The First 5,000 years.md	1;"	vimwiki:Debt: The First 5,000 years\tDebt: The First 5,000 years\tDebt: The First 5,000 years
+cc0	Deep Listening.md	2;"	vimwiki:Deep Listening\tDeep Listening#deep-listening\tDeep Listening
+cc0	Digital Audio.md	2;"	vimwiki:Digital Audio\tDigital Audio#digital-audio\tDigital Audio
+cc0	FIR filter.md	2;"	vimwiki:FIR filter\tFIR filter#fir-filter\tFIR filter
+cc0	FM Synthesis.md	2;"	vimwiki:FM Synthesis\tFM Synthesis#fm-synthesis\tFM Synthesis
+cc0	Field Recording.md	2;"	vimwiki:Field Recording\tField Recording#field-recording\tField Recording
+cc0	Folk song forms.md	2;"	vimwiki:Folk song forms\tFolk song forms#folk-song-forms\tFolk Song Forms
+cc0	Fourier series.md	2;"	vimwiki:Fourier series\tFourier series#fourier-series\tFourier Series
+cc0	Functional Core, Imperative Shell.md	2;"	vimwiki:Functional Core, Imperative Shell\tFunctional Core, Imperative Shell#functional-core-imperative-shell\tFunctional Core, Imperative Shell
+cc0	Functional Programming.md	2;"	vimwiki:Functional Programming\tFunctional Programming#functional-programming\tFunctional Programming
+cc0	Lazy Evaluation.md	2;"	vimwiki:Lazy Evaluation\tLazy Evaluation#lazy-evaluation\tLazy Evaluation
+cc0	Partial Application.md	2;"	vimwiki:Partial Application\tPartial Application#partial-application\tPartial Application
+cc0	README.md	2;"	vimwiki:README\tREADME#davids-digital-garden\tDavid's Digital Garden
+cc0	Referential Transparency.md	2;"	vimwiki:Referential Transparency\tReferential Transparency#referential-transparency\tReferential Transparency
+cc0	SIMD vectorization.md	2;"	vimwiki:SIMD vectorization\tSIMD vectorization#single-instruction-multiple-data\tSingle Instruction Multiple Data
+cc0	Software Engineering.md	2;"	vimwiki:Software Engineering\tSoftware Engineering#software-engineering\tSoftware Engineering
+cc0	Test Driven Design.md	2;"	vimwiki:Test Driven Design\tTest Driven Design#test-driven-design\tTest Driven Design
+cc0	The Paradox Of Sovereignty.md	2;"	vimwiki:The Paradox Of Sovereignty\tThe Paradox Of Sovereignty#the-paradox-of-sovereignty\tThe Paradox of Sovereignty
+cc0	Wirth's Law.md	2;"	vimwiki:Wirth's Law\tWirth's Law#wirths-law\tWirth's Law
+cc0	hyperpop.md	2;"	vimwiki:hyperpop\thyperpop#hyperpop\tHyperpop
+cc0	index.md	2;"	vimwiki:index\tindex#digital-garden\tDigital Garden
+cc0	learning.md	1;"	vimwiki:learning\tlearning\tlearning
+cc0	learning.md	1;"	vimwiki:learning\tlearning\tlearning
+cc0	loop unrolling.md	2;"	vimwiki:loop unrolling\tloop unrolling#loop-unrolling\tLoop Unrolling
+learning	Bass Guitar.md	1;"	vimwiki:Bass Guitar\tBass Guitar\tBass Guitar
+learning	Bass Guitar.md	1;"	vimwiki:Bass Guitar\tBass Guitar\tBass Guitar
+learning	Learning Songwriting.md	1;"	vimwiki:Learning Songwriting\tLearning Songwriting\tLearning Songwriting
+learning	Practice Advice - Guitar.md	1;"	vimwiki:Practice Advice - Guitar\tPractice Advice - Guitar\tPractice Advice - Guitar
+learning	learning Tidalcycles.md	1;"	vimwiki:learning Tidalcycles\tlearning Tidalcycles\tlearning Tidalcycles
+learning	learning.md	1;"	vimwiki:learning\tlearning\tlearning
+lyrics	bottom drawer.md	1;"	vimwiki:bottom drawer\tbottom drawer\tbottom drawer
+project	Telegraph Chaotic Resonance Synthesizer.md	1;"	vimwiki:Telegraph Chaotic Resonance Synthesizer\tTelegraph Chaotic Resonance Synthesizer\tTelegraph Chaotic Resonance Synthesizer
+project	pollard - cutup poetry assistant.md	1;"	vimwiki:pollard - cutup poetry assistant\tpollard - cutup poetry assistant\tpollard - cutup poetry assistant
+stub	Pairing.md	1;"	vimwiki:Pairing\tPairing\tPairing
+stub	hyperpop.md	2;"	vimwiki:hyperpop\thyperpop#hyperpop\tHyperpop
+stub	hyperpop.md	2;"	vimwiki:hyperpop\thyperpop#hyperpop\tHyperpop
+stub	pollard - cutup poetry assistant.md	1;"	vimwiki:pollard - cutup poetry assistant\tpollard - cutup poetry assistant\tpollard - cutup poetry assistant
+writing	bottom drawer.md	1;"	vimwiki:bottom drawer\tbottom drawer\tbottom drawer
+writing	bottom drawer.md	1;"	vimwiki:bottom drawer\tbottom drawer\tbottom drawer
+z-2022	diary/2022-03-13.md	1;"	vimwiki:diary/2022-03-13\tdiary/2022-03-13\tdiary/2022-03-13
+>>>>>>> 1a725c9 (been a while since I checked in huh?)

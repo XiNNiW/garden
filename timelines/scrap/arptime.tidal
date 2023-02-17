@@ -1,0 +1,23 @@
+/
+
+let chords = slow 4 $ cat ["e'm11", "g'dom11", "e'm11", "g'dom11", "fs'm9"] :: Pattern Note
+    lfo1 = saw + (slow 9 $ rand)
+    timelfo = tri*(slow 4 $ saw) + (slow 8 $ tri) :: Pattern Double
+in
+d1 
+-- $ plyWith "<4 3 2 1>" (|* legato 0.6)
+$ stack [
+    note (fingerpick chords 
+        $ run 8
+    ) #s "midi" #midichan 0,
+    note (fingerpick chords
+        $ "<0 1 -1 0>"
+    ) #s "midi" #midichan 1
+]
+-- # bpm (80*timelfo + 60)
+
+hush
+
+chordList
+
+:t ie

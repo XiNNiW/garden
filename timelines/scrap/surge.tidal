@@ -1,0 +1,40 @@
+eventInversion :: Num a => Int -> [Event a] -> [Event a]
+eventInversion _ [] = []
+eventInversion n xs = drop n xs ++ (fmap (fmap (+12)) $ take n xs )
+
+withFriends :: ([Event a] -> [Event b]) -> Pattern a -> Pattern b
+withFriends f pat = withEvents munge pat
+  where munge es = concatMap (f) (groupBy (\a b -> whole a == whole b) $ sortOn whole es)
+
+chinv :: Num b => Int -> Pattern b -> Pattern b
+chinv = withFriends . eventInversion
+
+d1 $ note ("0*3 . 1*5 . -1*6 . -4*9") #s "midi"
+
+setbpm 120
+
+let ov f p = overlay (f p) p 
+in
+d1 
+$ ie 2 (ov $ plyWith "<1 [3@4 1]>"((|* legato 0.8). (|- note 12)))
+$ every 4 (#midichan 2)
+$ note ( 
+    fingerpick (slow 2 
+    $ cat [
+        "[c'maj6'iiii <c'maj6'ii> c'maj6'iii c'maj6'i . <d'min6'ii [d'min6 c'13]>  f'maj9'ii] "
+        ,"[g'maj9'ii@3 g'maj9'iii@2]"
+        ,"[a'min6'iii@2 a'min7'iiii a'min9'i f'maj7'ii]"
+        ,"[b'maj9'ii@3 f'maj9'iii@2]"
+    ]) 
+    $ every 4 ((|+ 2).(|* "-1"))
+    $ stack [
+        slow "<2 4 6 9>" "0*3 . 1*5 . -1*6 . -4*9 . -2*4"
+        , rev $ slow "<2 4 6 9>" "0*3 . 1*5 . -1*6 . -4*9 . -2*4"
+        ,"<1 ~ ~ ~ > <2> <3 ~> -2 <~ 5>"
+    ]
+)
+ #s "midi" #midichan "<<<0 2> [0,3]> <1@7 2>>" #octave "<3 4>"
+
+
+hush
+

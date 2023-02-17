@@ -1,0 +1,112 @@
+]
+
+hush
+
+let chordpat = outside 4 ((iter 4). ie 2 (|- (brak $ "<5 7>"))) $ (cat [ "[e'min7'ii b'min7]", "d'maj7'i",  "[g'm11'ii]", "d'maj7'iii"] :: Pattern Note) 
+in
+d1 
+$ slow 2
+$ stack [
+    note (
+        fingerpick chordpat
+        $ (7 -)
+        $ someCycles (overlay "5 6 7 . 9")
+        $ sew "t(3,8)" "[<0 1> -1,3 . 2 1 , 5]" (run 8)
+    ) 
+] #s "midi" #gain 0.79 #legato 1 #midichan 0 #octave 4
+
+d2 $ stack [
+    struct "1(3,8)" $ note 0,
+    struct "1(<5 3 9 7>,16)" $ note "5 6"
+] #s "midi" #midichan 9 #octave 3
+
+hush
+
+chordList
+
+let mdrum = inhabit [("bd", "0" :: Pattern Note),
+                     ("sd", "1"),
+                     ("ch", "2"),
+                     ("oh", "3"),
+                     ("cp", "5"),
+                     ("rm", "6"),
+                     ("ht",  "8"),
+                     ("mt",  "9")
+                    ]
+in
+d1
+$ note (
+    stack [
+        mdrum "~ [ht mt] . ~ [~ mt] [ht mt]",
+        mdrum "bd cp",
+        mdrum "~ ch . ~ ch . ~ [ch oh] . ~ ch"
+    ]
+) 
+#s "midi" #midichan 9 #octave 3
+
+
+d2
+$ stack [
+        s ( "~ [ht mt] . ~ [~ mt] [ht mt]"),
+        s ( "efm_bd efm_cp"),
+        s ( "~ efm_hh . ~ efm_hh . ~ [efm_hh efm_cy] . ~ efm_hh")
+    ]
+
+
+#s "midi" #midichan 9 #octave 3
+
+hush
+
+let mychords = inhabit [("hola", "[0,4,2]" :: Pattern Note),
+                    ("hello", "[0,5,7,12]")
+                   ] 
+in
+d1 $ n (mychords "hello hola") # s "superpiano"
+
+
+-------------------------------------------------------
+d1 
+$ struct "1 <0 [0 1 . 1]> . 1 0 . 0 1 . 0 1" 
+$ s "midi"
+# midichan 0
+# note ( scale "lydian" $ (run 8) + (fast 4 $ run 3) - (slow 8 $ run 4))
+# octave 3
+
+d2 $ struct "1 <1 [1 1@3]  1  [1 1@3] > 1 <1 [1 . 0 1] 1 [ 1 1? ] [1 1@3] >" $ s "bd"
+
+d3 $ s "~ cp"
+
+hush
+
+-----------------------------------------------------------
+
+d1 
+$ note (
+    fingerpick 
+    (cat ["f'maj7@3 . f'maj7 [e'min7 g'6]" , "d'min7 . d'min7 [e'min7 g'6]"]) 
+    $ "<[[-4@3 -4] -7 ,1 . ~ 2 ,2, 3 . 3 5] . [[<-4 -8 -3>, 1, 2 3, 3]] . [<-8 -3>, 1, 2, 3]*2 > . [~ -3,1 ~ 1 2,2 0,3] [[-4,1,2,3 <4 5>] [<-4 -2>,1,2,3]]" 
+)
+# s "midi"
+# midichan 0
+# octave 5
+
+setbpm 120
+
+let chordSeq = ["f'maj7@3 . f'maj7 [e'min7 g'6]" , "d'min7 . d'min7 [e'min7 g'6]"]
+in
+d1 
+-- $ plyWith "8" (slow 4)
+$ note (
+    fingerpick 
+    (cat chordSeq) 
+    $ chunk 4 (rev . slow 2 . iter 4)
+    $ stack [
+        "-4 <-4 -8> . ~ -4 . [-8 -7] -4@3 . -7"
+        , off 0.25 ((+ 4). slow 4) ( "[ 0 1 2 3 , 3 . ~ [5 6 7 8], [4 5] [~ 5] 6 7 . 1  ]" )
+    ]
+)
+# s "midi"
+# midichan 0
+# octave 4
+
+d2 $ s $ stack ["bd:0*4", "[~ hh27:7]*4"]

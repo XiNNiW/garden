@@ -1,4 +1,5 @@
 # Bullshit Jobs
+:cc0:
 A Bullshit Job is defined by [[David Graeber]] in his 2018 book *Bullshit Jobs: A Theory* as 
 >"a form of paid employment that is so completely pointless, unnecessary, or pernicious that even the employee cannot justify its existence even though, as part of the conditions of employment, the employee feels obliged to pretend that this is not the case."
 

@@ -1,3 +1,4 @@
+:cc0:
 # Algorithms art
 
 Algorithmic art is any art using a strict process to generate some aspect of the work. Note that this may or may not involve the use of a computer. 

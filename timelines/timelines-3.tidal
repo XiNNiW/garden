@@ -1,0 +1,57 @@
+d1 
+$ plyWith "<0 [2 4 6 8] [3 4 5 6] [4 8 12 16]>" (* legato 0.75) 
+$ note "0" #amp 0.8 #s "midi" #octave 3
+
+d2 
+$ note "0*4" #s "midi" #midichan 9 #octave 3
+
+d2 
+$ stack [
+    note "0*4" 
+    , note "{~ 1}%2" 
+] #s "midi" #midichan 9 #octave 3
+
+d2 
+$ stack [
+    note "0*4" 
+    , note "{~ [5]}%2" #amp 0.8
+] #s "midi" #midichan 9 #octave 3
+
+d2 $ silence
+
+d1 
+$ note(fingerpick "<e'm9 e'm9 e'm9 e'm11>" $ off 2.25 (+ 1) $off 1.5 (+ 1) $ plyWith "<0 [2 4 6 8] [3 4 5 6] [4 8 12 16]>" (+ 1)  $ "<8 7 6 5 4 3 2 1>") 
+# amp 0.8 #s "midi" #octave 3 #midichan 1
+
+d2 
+$ stack [
+    note "0*4" 
+    , note "{~ [5]}%2" #amp 0.8
+] #s "midi" #midichan 9 #octave 3
+
+d3
+$ plyWith "<0 [2 4 6 8] [3 4 5 6] [4 8 12 16]>" (* legato 0.75) 
+$ note (fingerpick "<e'm9 e'm9 <e'm9 e'min7> e'm11>" $ "[0 . <-4 2> 1]") #amp 0.8 #s "midi" #octave 3
+
+d3
+$ plyWith "<0 [2 4 6 8] [3 4 5 6] [4 8 12 16]>" (* legato 0.75) 
+$ note (fingerpick "e'min7" $ "<[1 . 0 -1 1] 2 1 3 [1 . 0 -1 1] 1 -1 0>") #amp 0.8 #s "midi" #octave 3
+
+hush 
+
+d1 
+$ plyWith "<0 [2 4 6 8] [3 4 5 6] [4 8 12 16]>" (* legato 0.75) 
+$ note "ds" #amp 0.8 #s "midi" #octave 3
+
+
+d1 
+-- $ slow 4
+-- $ slowSqueeze (run 4)
+$ note(fingerpick "<gs'6by9>" $ off 2.25 (+ 1) $off 1.5 (+ 1) $ plyWith "<0 [2 4 6 8] [3 4 5 6] [4 8 12 16]>" (+ 1)  $ "<8 7 6 5 4 3 2 1>") 
+# amp 0.8 #s "midi" #octave 3 #midichan 1
+
+d3
+$ plyWith "<0 [2 4 6 8] [3 4 5 6] [4 8 12 16]>" (* legato 0.75) 
+$ note (fingerpick "gs'maj13" $ "<[1 . 0 -1 1] 2 1 3 [1 . 0 -1 1] 1 -1 0>") #amp 0.8 #s "midi" #octave 3
+
+hush

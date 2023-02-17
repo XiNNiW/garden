@@ -7,4 +7,4 @@ Hard-sync is where one oscillator resets the phase of another. The frequency of 
 Resetting the phase exactly on a computer introduces discontinuities that are not band-limited. 
 
 # the algorithm
-Emulating hard-sync using [[BLIT]] typically requires the generation of a band-limited synchronization signal where resets must be calculated to fall on sample boundaries. Tables are generated storing these various impulses and are referenced and integrated. In BLEP the integration is done first
+Emulating hard-sync using [BLIT](BLIT) typically requires the generation of a band-limited synchronization signal where resets must be calculated to fall on sample boundaries. Tables are generated storing these various impulses and are referenced and integrated. In BLEP the integration is done first...

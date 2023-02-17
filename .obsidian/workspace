@@ -10,11 +10,16 @@
           "type": "markdown",
           "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "file": "Permacomputing.md",
 =======
             "file": "Songwriting/index.md",
 >>>>>>> 5b8e895 (started using vimwiki... reorganized files to remove folder organization... hopefully this will let more connections be made and have less overhead... i may need to reintroduce them later as more notes accumulate)
             "mode": "source"
+=======
+            "file": "Linear Predictive Coding (LPC.md",
+            "mode": "preview"
+>>>>>>> 1a725c9 (been a while since I checked in huh?)
           }
         }
       }
@@ -73,10 +78,14 @@
               "type": "backlink",
               "state": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "file": "Permacomputing.md",
 =======
                 "file": "Songwriting/index.md",
 >>>>>>> 5b8e895 (started using vimwiki... reorganized files to remove folder organization... hopefully this will let more connections be made and have less overhead... i may need to reintroduce them later as more notes accumulate)
+=======
+                "file": "Linear Predictive Coding (LPC.md",
+>>>>>>> 1a725c9 (been a while since I checked in huh?)
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,10 +100,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "ae28065834184a89",
   "lastOpenFiles": [
+<<<<<<< HEAD
 <<<<<<< HEAD
     "Permacomputing.md",
     "climate impact of technology.md",
@@ -107,16 +118,25 @@
     "Digital Audio/aliasing.md",
     "Songwriting/Through Composed Form.md"
 =======
+=======
+    "Linear Predictive Coding (LPC.md",
+    "IIR filter.md",
+    "Digital Audio.md",
+>>>>>>> 1a725c9 (been a while since I checked in huh?)
     "Songwriting/index.md",
     "Guitar/Guitar Tunings.md",
     "Digital Audio/DSF.md",
     "Digital Audio/Bandlimited Oscillator.md",
     "Digital Audio/IIR filter.md",
     "Digital Audio/Bandlimiting.md",
+<<<<<<< HEAD
     "Fourier series.md",
     "Digital Audio/White Noise.md",
     "Digital Audio/aliasing.md",
     "Digital Audio/BLIT.md"
 >>>>>>> 5b8e895 (started using vimwiki... reorganized files to remove folder organization... hopefully this will let more connections be made and have less overhead... i may need to reintroduce them later as more notes accumulate)
+=======
+    "Fourier series.md"
+>>>>>>> 1a725c9 (been a while since I checked in huh?)
   ]
 }

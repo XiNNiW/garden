@@ -1,0 +1,39 @@
+
+
+hush
+
+
+setbpm 133
+
+d2 $ note (0) # "midi" #octave 4 #midichan 0
+
+p "clock" $ fast 2 $ midicmd "midiClock*48" #s "midi"
+
+chordList
+
+let chords = slow 8 ( cat [
+        "{f'6 d'm9 . a'm7 [g'sevenSus4 c'maj7]}%4",
+        "{f'6 d'm9 . a'm7 [g'sevenSus4 c'maj7]}%4",
+        "{d'm11 .  a'm7 <[g'sevenSus4 c'maj7] f'maj9> }%2",
+        "{ a'm7 g'sevenSus4 . c'm7 f'maj9}"] ) ::Pattern Note
+    line1 = ((slow 8 $ cat ["{<0 -2> . ~ 1}%8","{<0 -2> . ~ 1}%6","{ ~ 1 . <0 -2> }%4","{ 1 <0 [-1 0]> . ~}%2"]) + "0 . ~ [0 0] . ~ 2") ::Pattern Int
+in
+d1
+$ stack [
+    note (fingerpick (chords) $ stitch "1 0 . 1 0 [1 0]" line1 "0(3,8)") 
+    #s "midi" #midichan 0 #octave "4"
+    ,
+    note ( fingerpick (chords) $ "[1 0] [0 1] [-2 [0 <~ -1>] . 0 1]" +  (every 16 (slow 4 . rev) line1)) 
+    #s "midi" #midichan 0 #octave ("5"+"0 . 0 1  . 0 [1 0] <1 1 1 0>")
+    ,
+    note ( fingerpick (chords) $ "[2 1] [-1 2] [1 -1 . -1 1]") 
+    #s "midi" #midichan 0 #octave "5"
+    --  note ( fingerpick (chords) $ "[0 1 2 3]*4") 
+    -- #s "midi" #midichan 0 #octave "5"
+] 
+
+
+
+hush
+
+:t mod

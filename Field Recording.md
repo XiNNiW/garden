@@ -1,4 +1,5 @@
 # Field Recording
+:cc0:
 
 Field recording is the process of making a recording outside of a specialized recording environment. (for example, in the woods) It often utilized specialized microphones and portable recorders capable of capturing sound with an incredibly low noise floor.
 

@@ -1,3 +1,4 @@
+:learning:
 # Practice Advice (Guitar)
 
 I have gotten advice from various people on practicing the guitar. Here it is in no particular order.
@@ -18,4 +19,4 @@ I used to hate playing with a metronome. To this day, if I don't have one on han
 I had a guitar teacher in high-school who was the coolest. A super practical piece of advice from him about performing. Remember to play your tunes standing up. If you only practice sitting down your body will not be ready to play out at a show standing in front of an audience. It sounds super simple because it is. It is also really useful advice.
 
 ## backlinks
-- [[learning]]
+- [learning](learning)

@@ -1,0 +1,128 @@
+//
+
+
+-- d1 $ note (fingerpick "<g'm11 f'maj9>" $ "[0,2] ~ . -1 [3 2]") #s "modal03"
+hush
+
+let mkpat name pattern = (name,pattern)
+    mkfx name fx = (name,fx)
+    a1 = s "bd*4"
+    a2 = s "~ cp"
+    a3 = s "hh*8"
+    a4 = note (fingerpick "<g'm11 f'maj9>" $ "[0,2] ~ . -1 [3 2]") #s "modal02"
+    b1 = s "bd(3,8)"
+    b2 = s "~ cp"
+    b3 = s "hh*<4, 8>"
+    b4 = slow 2 $ note (fingerpick "<a'maj9 d'm11>" $ "[0,3,4,5]") #s "modal02"
+    fx1 = chunk 4 (iter 8)
+    fx2 = chunk 4 (rev)
+    sectionLength = 8
+    structure = cat [ 
+        "a1@7 a4",
+        "[a1,a2]@7 a4",
+        "[a1,a2,a3]@7 <a2:fx1 a3:fx2? a4:fx1?>",
+        "[a1,a2,a3,a4]@7 <a2:fx1 a3:fx2? a4:fx2?>",
+        "[b1,b2,b4]@7 b3:fx1",
+        "[b1,b2,b3,b4]@3 b3:fx1",
+        "[b3,b4]@7 b4:fx1",
+        "[b4]@7 b4:fx1" 
+        ] :: Pattern String
+    parts = [ 
+        mkpat "a1" $ a1,
+        mkpat "a2" $ a2,
+        mkpat "a3" $ a3,
+        mkpat "a4" $ a4,
+        mkpat "b1" $ b1,
+        mkpat "b2" $ b2,
+        mkpat "b3" $ b3,
+        mkpat "b4" $ b4
+        ]
+    fx = [ 
+        mkfx "fx1" $ fx1,
+        mkfx "fx2" $ fx2
+        ]
+in
+d1 $ ur sectionLength structure parts fx
+
+let mkpat name pattern = (name,pattern)
+    mkfx name fx = (name,fx)
+    ad1 =  s "bd*4"
+    ad2 =  stack [ 
+        s "bd*4",
+        s "~ cp"
+        ]
+    ad3 =  stack [ 
+        s "bd*4",
+        s "~ cp",
+        s "hh*8"
+        ]
+    am1 = note (fingerpick "<g'm11 f'maj9>" $ "[0,2] ~ . -1 [3 2]") #s "modal02"
+    am2 = stack [
+        note (fingerpick "<g'm11 f'maj9>" $ "[0,2] ~ . -1 [3 2]") #s "modal02",
+        note (fingerpick "<g'm11 f'maj9>" $ chunk 4 (iter 8) $ 8 - (run 8)) #s "modal03"
+        ]
+    am3 = stack [
+        note (fingerpick "<g'm11 f'maj9>" $ "[0,2] ~ . -1 [3 2]") #s "modal02",
+        note (fingerpick "<g'm11 f'maj9>" $ chunk 4 (iter 8) $ 8 - (run 8)) #s "modal03",
+        note (fingerpick "<g'm11 f'maj9>" $ "3 . -1 1 . ~ 2 . ~ [-1 -2]") #s "supersaw" #octave 3
+        ]
+    bd1 = ie 4 (chunk 4 (iter 4)) 
+        $ stack [ 
+        s "bd(3,8)",
+        s "~ cp",
+        s "hh*<4 8>"
+        ]
+    bd2 = ie 4 (chunk 4 (iter 4)) 
+        $ stack [ 
+        s "~ cp",
+        s "hh*<4 8>"
+        ]
+    bd3 = stack [
+        s "~ cp"
+        ]
+    bm1 = slow 2 $ note (fingerpick "<a'maj9 g'm11>" $ "[0,3,4,5]") #s "modal02"
+    bm2 = stack [
+        slow 2 $ note (fingerpick "<a'maj9 g'm11>" $ "[0,3,4,5]") #s "modal02",
+        slow 2 $ note (fingerpick "<a'maj9 g'm11>" $ "~ 3 . 2 1") #s "modal03"
+        ]
+    bm3 = stack [
+        slow 2 $ note (fingerpick "<a'maj9 g'm11>" $ "[0,3,4,5]") #s "modal02",
+        slow 2 $ note (fingerpick "<a'maj9 g'm11>" $ "~ 3 . 2 1") #s "modal03",
+        slow 2 $ note (fingerpick "<a'maj9 g'm11>" $ "2 . -1 1 . ~ 2 . ~ [-1 -2]") #s "supersaw" # octave 3
+        ]
+    fx1 = chunk 4 (iter 8)
+    fx2 = chunk 4 (rev)
+    sectionLength = 8
+    structure = cat [ 
+        "ad1@7 am1",
+        "ad2@7 am1",
+        "[ad3@7 ad2:fx1, am1@7 ~]",
+        "[bd1@7 bd1:fx1, bm1]",
+        "[bd2@7 ~, bm2@7 bm2:fx2]",
+        "[bd3@7 ~, bm3@7 bm3:fx2]",
+        "[bm3@7 bm3:fx1]",
+        "[bd1 ,bm3@7 bm3:fx2]"
+        ] :: Pattern String
+    parts = [ 
+        mkpat "ad1" $ ad1,
+        mkpat "ad2" $ ad2,
+        mkpat "ad3" $ ad3,
+        mkpat "am1" $ am1,
+        mkpat "am2" $ am2,
+        mkpat "am3" $ am3,
+        mkpat "bd1" $ bd1,
+        mkpat "bd2" $ bd2,
+        mkpat "bd3" $ bd3,
+        mkpat "bm1" $ bm1,
+        mkpat "bm2" $ bm2,
+        mkpat "bm3" $ bm3
+        ]
+    fx = [ 
+        mkfx "fx1" $ fx1,
+        mkfx "fx2" $ fx2
+        ]
+in
+d1 $ ur sectionLength structure parts fx
+
+hush
+

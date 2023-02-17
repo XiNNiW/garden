@@ -1,4 +1,6 @@
 # Loop Unrolling
+:cc0:
+
 Loop unrolling is an optimization that is typically made by the compiler, although it can be manually accomplished in assembly. When an iteration occurs in the code, and the number of times the iteration loops is known at compile time, the loop can be unrolled. Unrolling the loop means replacing the iteration instruction with hard-coded instructions for each iteration one after the other. For example, consider the following loop:
 ```
 for (size_t index=0; index<3; index++){
